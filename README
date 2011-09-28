@@ -12,5 +12,13 @@ the web browser.
 
 
 
+Install CRON to check for update every Monday:
+  git clone git@github.com:alevchuk/uniprot-stats-history.git
+  crontab -e
+  # and add
+* *   * * WED        ~/uniprot-stats-history/mirror-commit-push.sh
+
+
 Inspired by this discussion:
-http://biostar.stackexchange.com/questions/12561/where-can-i-get-stats-for-previous-uniprot-release/12566
+  http://biostar.stackexchange.com/questions/12561/where-can-i-get-stats-for-previous-uniprot-release/12566
+
