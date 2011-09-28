@@ -1,1 +1,0 @@
-Welcome to the uniprot-stats-history wiki!
