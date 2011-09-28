@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(dirname $0)
+cd $SCRIPT_DIR
+
 SWISSPROT_URL=http://web.expasy.org/docs/relnotes/relstat.html
 TREMBL_URL=http://www.ebi.ac.uk/uniprot/TrEMBLstats/relstat.html
 
@@ -14,5 +17,5 @@ TREMBL_URL=http://www.ebi.ac.uk/uniprot/TrEMBLstats/relstat.html
   wget        --quiet -E -H -k -K -p $TREMBL_URL )
 
 git add .
-git commit    --quiet -a -m "Automtic commit" 
+git commit    --quiet -a -m "Automatic commit" 
 git push      --quiet 
