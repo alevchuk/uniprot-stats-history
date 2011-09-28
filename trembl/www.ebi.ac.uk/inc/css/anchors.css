@@ -1,0 +1,524 @@
+
+/* default anchors */
+
+.contents a:link {
+	color: #006666;
+	text-decoration: underline;
+}
+
+.contents a:visited {
+	color: #4c9494;
+	text-decoration: underline;
+}
+
+.contents a:hover, .contents a:active {
+	color: #e33e3e;
+	text-decoration: none;
+}
+
+.contents .alink {
+	font-size: 10pt;
+	color: #006666;
+	text-decoration: underline;
+}
+
+.contents .ahoverlink {
+	font-size: 10pt;
+	color: #e33e3e;
+	text-decoration: none;
+}
+
+.contents .pipe{	
+	color: #006666;
+}
+
+/* default anchors bold*/
+
+.contents a.greenbold:link, .contents a.greenbold:visited {
+	font-weight:bold; 
+}
+
+.contents a.greenbold:hover, .contents a.greenbold:active {
+	font-weight:bold; 
+}
+
+.contents .greenbold {
+	color: #006666;
+	font-weight:bold; 
+}
+
+.contents a.greenboldsmall2:link, .contents a.greenboldsmall2:visited {
+	font-weight:bold; 
+}
+
+.contents a.greenboldsmall2:hover, .contents a.greenboldsmall2:active {
+	font-weight:bold; 
+}
+
+.contents .greenboldsmall2 {
+	font-size:8pt;
+	color: #006666;
+	font-weight:bold; 
+}
+
+/* default anchors nounderline*/
+
+.contents a.nounderline:link, .contents a.nounderline:visited {
+	text-decoration:none;
+}
+
+.contents a.nounderline:hover, .contents a.nounderline:active {
+	text-decoration:none;
+}
+
+
+/* right link to top link */
+
+
+
+.tophelp{
+	float: right; 
+	text-align: right; 
+	margin-bottom: 0; 
+	width: 300px;
+}
+
+.tophelp, .tophelp a {
+	font-family: helvetica, Arial, verdana, sans-serif;
+	font-size: 11px;
+	color: #777777;
+}
+
+.linktotop{
+	list-style: none;
+	float: right;
+	margin: 0px 0px 12px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 8pt;
+	color: #999999;
+}
+
+
+ .linktotop a:link,  .linktotop a:visited {
+	color: #999999;
+	text-decoration: none;
+	padding-left:0px;
+	padding-right:12px;
+	padding-top:2px;
+	padding-bottom:0px;		
+	height: 14px;	
+	text-align: left;		
+	background: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) top right no-repeat;	
+}
+
+
+ .linktotop a:hover,  .linktotop a:active {
+	color: #e33e3e;
+	text-decoration: underline;
+	padding-left:0px;
+	padding-right:12px;
+	padding-top:2px;
+	padding-bottom:0px;		
+	height: 14px;	
+	text-align: left;		
+	background: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) top right no-repeat;	
+}
+
+
+/* right hand link to top of page for EBI Sitemap also other sitemap styles*/
+
+
+.bigLetter { 
+	clear: both;
+	font-size:50px; 
+	color:#207A7A; 
+	font-weight:bold; 
+	/* line-height: 60px;*/
+}
+
+
+
+a.itemLink, a.itemLink:link, a.itemLink:active, a.itemLink:visited {
+	white-space: nowrap; 
+	text-decoration: none;
+}
+
+.inactiveLink { 
+	color:#006666; 
+}
+
+.linktotop2{
+	display: inline;
+	list-style: none;
+	margin: 0px 0px 12px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 8pt;
+	color: #999999;
+}
+
+.linktotop2{
+	position: relative;
+	top: 35px;
+}
+				   
+ .linktotop2 a:link,  .linktotop2 a:visited {
+	color: #999999;
+	text-decoration: none;
+	padding-left:0px;
+	padding-right:12px;
+	padding-top:2px;
+	padding-bottom:0px;       
+	height: 14px;   
+	text-align: left;       
+	background: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) top right no-repeat;   
+}
+
+
+ .linktotop2 a:hover,  .linktotop2 a:active {
+	color: #e33e3e;
+	text-decoration: underline;
+	padding-left:0px;
+	padding-right:12px;
+	padding-top:2px;
+	padding-bottom:0px;       
+	height: 14px;   
+	text-align: left;       
+	background: url(http://www.ebi.ac.uk/inc/images/top_arrow.gif) top right no-repeat;   
+} 
+
+/* links for document types */
+
+
+
+
+
+
+/* Publicaton CSS */
+
+div.publication, div.iconsspan{
+	font-size: 9pt;
+	line-height: 18px;
+}
+
+div.pubauthors, div.pubtitle, div.pubjournal{
+	font-size: 9pt;
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+div.pubauthors{
+	font-weight: normal;	
+	font-style: normal;	
+	color: #5e5e5e;
+	background-color: #ffffff;	
+}
+
+div.pubtitle{
+	font-weight: bold;	
+	font-style: normal;	
+	color: #006666;
+	background-color: #ffffff;	
+}
+
+div.pubjournal{
+	font-weight: normal;
+	font-style: italic;	
+	color: #1f1f1f;
+	background-color: #ffffff;	
+}
+
+
+div.publication a.pubpdf_left:link, div.publication a.pubpdf_left:visited, div.publication a.pubpdf_left:hover, div.publication a.pubpdf_left:active,
+
+div.publication a.pubcite_left:link, div.publication a.pubcite_left:visited, div.publication a.pubcite_left:hover, div.publication a.pubcite_left:active,
+
+div.publication a.pubcite:link, div.publication a.pubcite:visited, div.publication a.pubcite:hover, div.publication a.pubcite:active,
+
+div.publication a.pubabstract:link, div.publication a.pubabstract:visited, div.publication a.pubabstract:hover, div.publication a.pubabstract:active, 
+
+div.publication a.pubhtml:link, div.publication a.pubdoi:link,  div.publication a.pubhtml:visited, div.publication a.pubhtml:hover, div.publication a.pubhtml:active, 
+
+div.publication  a.pubdoi:link, div.publication  a.pubpdf:link, div.publication a.pubdoi:visited, div.publication a.pubpdf:visited, div.publication a.pubdoi:hover, 
+
+div.publication a.pubpdf:hover, div.publication a.pubpdf:active {
+	font-size: 9pt;
+}
+
+
+a.pubpdf_left{	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_pdf.gif) top left no-repeat;		
+}
+
+a.pubcite_left{	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_cite.gif) top left no-repeat;		
+}
+
+a.pubcite{	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_cite.gif) top right no-repeat;		
+}
+
+a.pubabstract{	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_abstract.gif) top right no-repeat;		
+}
+a.pubhtml {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_html.gif) top right no-repeat;		
+}
+a.pubpdf {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_pdf.gif) top right no-repeat;
+}
+a.pubpdf {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_pdf.gif) top right no-repeat;
+}
+a.pubexcel {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_excel.gif) top right no-repeat;
+}
+a.pubdoi {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_doi.gif) top right no-repeat;
+}
+a.pubhelp {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_help.gif) top right no-repeat;
+}
+a.pubppt {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_ppt.gif) top right no-repeat;
+}
+a.pubword {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_word.gif) top right no-repeat;
+}
+a.pubzip {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_zip.gif) top right no-repeat;
+}
+a.icon_txt {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_txt.gif) top right no-repeat;
+}
+a.icon_flash {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_flash.gif) top right no-repeat;
+}
+a.icon_movie {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_movie.gif) top right no-repeat;
+}
+a.icon_xml {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_xml.gif) top right no-repeat;
+}
+a.icon_windows {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_windows.gif) top right no-repeat;
+}
+a.icon_linux {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_linux.gif) top right no-repeat;
+}
+a.icon_mac {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_mac.gif) top right no-repeat;
+}
+a.icon_java {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_java.gif) top right no-repeat;
+}
+a.icon_perl {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_perl.gif) top right no-repeat;
+}
+a.icon_news {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_news.gif) top right no-repeat;
+}
+a.icon_person {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_person.gif) top right no-repeat;
+}
+a.icon_email {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_email.gif) top right no-repeat;
+}
+a.icon_book {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_book.gif) top right no-repeat;
+}
+a.icon_music {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_music.gif) top right no-repeat;
+}
+a.icon_computer {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_computer.gif) top right no-repeat;
+}
+a.icon_phone {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_phone.gif) top right no-repeat;
+}
+a.icon_executable {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_executable.gif) top right no-repeat;
+}
+a.icon_download {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_download.gif) top right no-repeat;
+}
+a.icon_info {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_info.gif) top right no-repeat;
+}
+a.icon_print {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_print.gif) top right no-repeat;
+}
+a.icon_xls {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_xls.gif) top right no-repeat;
+}
+a.icon_postscript {	
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_postscript.gif) top right no-repeat;
+}
+
+a.icon_rtf{
+	color: #006666;	
+	background: #ffffff url(http://www.ebi.ac.uk/inc/images/icon_rtf.gif) top right no-repeat;
+}
+
+a.pubpdf_left:visited, a.pubcite_left:visited, a.pubcite:visited, a.icon_postscript:visited, a.pubabstract:visited, a.pubhtml:visited, a.pubpdf:visited, a.pubpdf:visited, a.pubexcel:visited, 
+a.pubhelp:visited, a.pubppt:visited, a.pubzip:visited, a.icon_txt:visited, a.icon_flash:visited, 
+a.icon_movie:visited, a.icon_xml:visited, a.icon_windows:visited, a.icon_linux:visited, a.icon_mac:visited, 
+a.icon_java:visited, a.icon_perl:visited, a.icon_news:visited, a.icon_person:visited, a.icon_email:visited, 
+a.icon_book:visited, a.icon_music:visited, a.icon_computer:visited, a.icon_phone:visited, a.icon_executable:visited,  
+a.icon_info:visited, a.icon_print:visited, a.icon_xls:visited, a.pubword:visited, a.icon_download:visited, a.pubdoi:visited, 
+a.icon_rtf:visited, 
+
+a.pubpdf_left:link, a.pubcite_left:link, a.pubcite:link, a.icon_postscript:link, a.pubabstract:link, a.pubhtml:link, a.pubpdf:link, a.pubpdf:link, a.pubexcel:link, a.pubhelp:link, a.pubppt:link, 
+a.pubzip:link, a.icon_txt:link, a.icon_flash:link, a.icon_movie:link, a.icon_xml:link, a.icon_windows:link, a.icon_linux:link, 
+a.icon_mac:link, a.icon_java:link, a.icon_perl:link, a.icon_news:link, a.icon_person:link, a.icon_email:link, a.icon_book:link, 
+a.icon_music:link, a.icon_computer:link, a.icon_phone:link, a.icon_executable:link, a.icon_info:link, a.icon_print:link, 
+a.icon_xls:link, a.pubword:link, a.icon_download:link, a.pubdoi:link, a.icon_rtf:link 
+
+{
+	color: #006666;	
+	text-decoration: underline;
+	font-size: 9pt;
+	background-color: #ffffff;	
+}
+
+a.pubpdf_left:hover, a.pubcite_left:hover, a.pubcite:hover, a.icon_postscript:hover, a.pubabstract:hover, a.pubhtml:hover, a.pubpdf:hover, a.pubpdf:hover, a.pubexcel:hover, 
+a.pubhelp:hover, a.pubppt:hover, a.pubzip:hover, a.icon_txt:hover, a.icon_flash:hover, 
+a.icon_movie:hover, a.icon_xml:hover, a.icon_windows:hover, a.icon_linux:hover, a.icon_mac:hover, 
+a.icon_java:hover, a.icon_perl:hover, a.icon_news:hover, a.icon_person:hover, a.icon_email:hover, 
+a.icon_book:hover, a.icon_music:hover, a.icon_computer:hover, a.icon_phone:hover, a.icon_executable:hover,  
+a.icon_info:hover, a.icon_print:hover, a.icon_xls:hover, a.pubword:hover, a.icon_download:hover, a.pubdoi:hover,  
+a.icon_rtf:hover, 
+
+a.pubpdf_left:active, a.pubcite_left:active, a.pubcite:active, a.icon_postscript:active, a.pubabstract:active, a.pubhtml:active, a.pubpdf:active, 
+a.pubpdf:active, a.pubexcel:active, a.pubhelp:active, a.pubppt:active, a.pubzip:active, a.icon_txt:active, 
+a.icon_flash:active, a.icon_movie:active, a.icon_xml:active, a.icon_windows:active, a.icon_linux:active, 
+a.icon_mac:active, a.icon_java:active, a.icon_perl:active, a.icon_news:active, a.icon_person:active, 
+a.icon_email:active, a.icon_book:active, a.icon_music:active, a.icon_computer:active, a.icon_phone:active, 
+a.icon_executable:active, a.icon_info:active, a.icon_print:active, a.icon_xls:active, a.pubword:active a.icon_download:active, 
+a.pubdoi:active, a.icon_rtf:active 
+{
+	color: #e33e3e;
+	text-decoration: none;
+	font-size: 9pt;
+	background-color: #ffffff;	
+}
+
+a.pubcite, a.icon_postscript, a.pubabstract, a.pubhtml, a.pubpdf, a.pubpdf, a.pubexcel, 
+a.pubhelp, a.pubppt, a.pubzip, a.icon_txt, a.icon_flash, 
+a.icon_movie, a.icon_xml, a.icon_windows, a.icon_linux, a.icon_mac, 
+a.icon_java, a.icon_perl, a.icon_news, a.icon_person, a.icon_email, 
+a.icon_book, a.icon_music, a.icon_computer, a.icon_phone, a.icon_executable,  
+a.icon_info, a.icon_print, a.icon_xls, a.icon_download,  a.pubword, a.pubdoi, a.icon_rtf
+
+
+{
+	display: inline;
+	height: 18px;		
+	width: auto;
+	padding-right: 18px;
+	padding-bottom: 1px;
+	margin: 0;	
+	background-color: #ffffff;
+	white-space:nowrap;
+}
+
+a.pubcite_left, a.pubpdf_left {
+	display: inline;
+	height: 18px;		
+	width: auto;
+	padding-left: 18px;
+	padding-bottom: 1px;
+	margin: 0;	
+	background-color: #ffffff;
+	white-space:nowrap;
+}
+
+
+div.pubauthors, div.pubtitle, div.pubjournal{
+	/*  block style here if needed 	*/
+}
+
+
+
+
+
+.contents a.small2:link, .contents a.small2:active, .contents a.small2:hover, .contents a.small2:visited, .contents a.offwhite:link, .contents a.offwhite:active, .contents a.offwhite:hover, .contents a.offwhite:visited{color: #ffffff;}
+
+.icon_link{
+	vertical-align:top; 
+	margin-bottom:3px; 
+	border:0;
+}
+
+.redbold_small{
+	font-weight: bold; 
+	color: #e33e3e ;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of icon styles */
+
+.red_bold, a.red_bold:link, a.red_bold:visited, a.red_bold:active, a.red_bold:hover{ 
+font-weight: bold; 
+color: #e33e3e ; 
+}
+
+.red_bold_small, a.red_bold_small:link, a.red_bold_small:visited, a.red_bold_small:active, a.red_bold_small:hover{ 
+	font-weight: bold; 
+	color: #e33e3e ; 
+	font-size: 8pt;
+}
+
+.green_bold {
+	font-weight: bold; 
+	color: #73b360; 
+}
+
+

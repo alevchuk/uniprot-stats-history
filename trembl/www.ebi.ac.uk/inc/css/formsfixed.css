@@ -1,0 +1,448 @@
+table.inputform tr td.td1colsubmit{
+	width: 580px;
+	text-align: right;
+	/*background: #dedede;*/
+}
+
+
+
+/* start form layout for 1 column layout */
+
+table.inputform th.td1col{
+	width: 580px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd1col, table.inputform th.subheadingtd1col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 580px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td1col{
+	width: 568px;
+}
+
+table.inputform tr td.td1col input {
+	width: 568px;
+}
+
+table.inputform tr td.td1col textarea{
+	width: 568px;
+	white-space: normal;
+}
+
+table.inputform tr td.td1col select {
+	width: 572px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td1col_NI{
+	width: 580px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td1col {
+	width: 566px;
+}
+
+textarea.td1col {
+	width: 566px;
+}
+
+select.td1col {
+	width: 578px;
+}
+
+/* end form layout for 1 column layout */
+
+/* start form layout for 2 column layout */
+
+table.inputform th.td2col{
+	width: 287px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd2col, table.inputform th.subheadingtd2col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 287px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td2col{
+	width: 277px;
+}
+
+table.inputform tr td.td2col input {
+	width: 279px;
+}
+
+table.inputform tr td.td2col textarea{
+	width: 278px;
+	white-space: normal;
+}
+
+table.inputform tr td.td2col select {
+	width: 283px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td2col_NI{
+	width: 287px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td2col {
+	width: 288px;
+}
+
+textarea.td2col {
+	width: 288px;
+}
+
+select.td2col {
+	width: 292px;
+}
+
+/* end form layout for 2 column layout */
+
+/* start form layout for 3 column layout */
+
+table.inputform th.td3col{
+	width: 182px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd3col, table.inputform th.subheadingtd3col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 182px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td3col{
+	width: 182px;
+}
+
+table.inputform tr td.td3col input {
+	width: 182px;
+}
+
+table.inputform tr td.td3col textarea{
+	width: 182px;
+	white-space: normal;
+}
+
+table.inputform tr td.td3col select {
+	width: 186px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td3col_NI{
+	width: 182px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td3col {
+	width: 182px;
+}
+
+textarea.td3col {
+	width: 182px;
+}
+
+select.td3col {
+	width: 182px;
+}
+
+/* end form layout for 3 column layout */
+
+/* start form layout for 4 column layout */
+
+table.inputform th.td4col{
+	width: 148px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd4col, table.inputform th.subheadingtd4col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 148px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td4col{
+	width: 148px;
+}
+
+table.inputform tr td.td4col input {
+	width: 138px;
+}
+
+table.inputform tr td.td4col textarea{
+	width: 138px;
+	white-space: normal;
+}
+
+table.inputform tr td.td4col select {
+	width: 142px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td4col_NI{
+	width: 148px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td4col {
+	width: 138px;
+}
+
+textarea.td4col {
+	width: 138px;
+}
+
+select.td4col {
+	width: 142px;
+}
+
+/* end form layout for 4 column layout */
+
+/* start form layout for 6 column layout */
+
+table.inputform th.td6col{
+	width: 98px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd6col, table.inputform th.subheadingtd6col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 98px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td6col{
+	width: 98px;
+}
+
+table.inputform tr td.td6col input {
+	width: 88px;
+}
+
+table.inputform tr td.td6col textarea{
+	width: 88px;
+	white-space: normal;
+}
+
+table.inputform tr td.td6col select {
+	width: 92px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td6col_NI{
+	width: 98px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td6col {
+	width: 88px;
+}
+
+textarea.td6col {
+	width: 88px;
+}
+
+select.td6col {
+	width: 92px;
+}
+
+/* end form layout for 6 column layout */
+
+/* start form layout for 8 column layout */
+
+table.inputform th.td8col{
+	width: 73px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd8col, table.inputform th.subheadingtd8col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 73px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td8col{
+	width: 73px;
+}
+
+table.inputform tr td.td8col input {
+	width: 63px;
+}
+
+table.inputform tr td.td8col textarea{
+	width: 63px;
+	white-space: normal;
+}
+
+table.inputform tr td.td8col select {
+	width: 67px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td8col_NI{
+	width: 73px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td8col {
+	width: 63px;
+}
+
+textarea.td8col {
+	width: 63px;
+}
+
+select.td8col {
+	width: 67px;
+}
+
+/* end form layout for 8 column layout */
+
+/* start form layout for 12 column layout */
+
+table.inputform th.td12col{
+	width: 48px;	
+	text-align: center;	
+	/*background: #bdd7d7;*/ 
+	font-size: 10pt; font-weight: bold; 
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	text-align: center;
+	color: #006666;
+	vertical-align: top;
+}
+
+table.inputform td.subheadingtd12col, table.inputform th.subheadingtd12col{
+	/*background: #deebeb;*/
+	color: #404040;
+	font-weight: bold;
+	/*border: 1px solid #adadaf;*/
+	padding: 3px;
+	vertical-align: top;
+	width: 48px;
+	font-size: 9pt; font-weight: bold; 
+}
+
+table.inputform tr td.td12col{
+	width: 48px;
+}
+
+table.inputform tr td.td12col input {
+	width: 37px;
+}
+
+table.inputform tr td.td12col textarea{
+	width: 37px;
+	white-space: normal;
+}
+
+table.inputform tr td.td12col select {
+	width: 41px;
+}
+
+
+/* provided to style td's without inheriting content widths to contained elements so you can add several...*/
+table.inputform tr td.td12col_NI{
+	width: 48px;
+}
+
+/* use these next 2 styles to size elements that have no inherited width from parent table cell elements */
+input.td12col {
+	width: 37px;
+}
+
+textarea.td12col {
+	width: 37px;
+}
+
+select.td12col {
+	width: 42px;
+}
+
+/* end form layout for 12 column layout */

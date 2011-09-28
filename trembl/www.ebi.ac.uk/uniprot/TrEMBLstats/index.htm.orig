@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="kEYWORDS" content="TrEMBL Protein Database Statistics">
+<title>TrEMBL Protein Database statistics | UniProt | The Universal Protein Resource | EBI</title>
+</head>
+<frameset border=0 frameBorder=0 frameSpacing=0 name=top cols="20, *"  noresize>
+<FRAME marginHeight=0 marginWidth=0 scrolling=auto src="blank.html">
+<FRAME marginHeight=0 marginWidth=0 scrolling=auto src="relstat.html">
+</frameset>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
