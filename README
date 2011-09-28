@@ -1,5 +1,10 @@
 Historical Stats of Uniprot archived.
 
+I'm now running this script (mirror-commit-push.sh) on
+a stable server. The CRON script will mirror Uniprot pages
+every Wednesday. If there are any changes then
+they will get pushed out to GitHub automatically.
+
 Browser viewable HTML pages are located here:
 http://alevchuk.github.com/uniprot-stats-history
 
