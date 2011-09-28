@@ -1,0 +1,16 @@
+Historical Stats of Uniprot archived.
+
+Browser viewable HTML pages are located here:
+http://alevchuk.github.com/uniprot-stats-history
+
+History of pages is here:
+https://github.com/alevchuk/uniprot-stats-history
+
+No method is yet implemented for viewing all historical pages online, so
+you would need to clone the repository and view the file locally in
+the web browser.
+
+
+
+Inspired by this discussion:
+http://biostar.stackexchange.com/questions/12561/where-can-i-get-stats-for-previous-uniprot-release/12566
