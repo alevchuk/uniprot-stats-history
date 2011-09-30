@@ -1,21 +1,14 @@
-Historical Stats of Uniprot archived.
+Historical Stats of Uniprot 
+(starting from 2011_09)
 
-I'm now running this script (mirror-commit-push.sh) on
-a stable server. The CRON script will mirror Uniprot pages
-every Wednesday. If there are any changes then
-they will get pushed out to GitHub automatically.
 
-Browser viewable HTML pages are located here:
+Users:
+
+Browser viewable HTML archive:
 http://alevchuk.github.com/uniprot-stats-history
 
-History of pages is here:
-https://github.com/alevchuk/uniprot-stats-history
 
-No method is yet implemented for viewing all historical pages online, so
-you would need to clone the repository and view the file locally in
-the web browser.
-
-
+Admins:
 
 Install CRON to check for update every Monday:
 
@@ -25,6 +18,15 @@ Install CRON to check for update every Monday:
 PATH=/bin:/usr/bin:/usr/local/bin
 MAILTO="youremail@emailprovider.com"
 55 1   * * WED        ~/uniprot-stats-history/mirror-commit-push.sh
+
+
+
+I'm now running this script on a stable server.
+The CRON script will mirror Uniprot pages
+every Wednesday. If there are any changes then
+they will get pushed out to GitHub automatically
+all versions of Unport starting from 2011_09 are indexed.
+
 
 
 
