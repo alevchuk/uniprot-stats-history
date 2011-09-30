@@ -21,7 +21,7 @@
 
 set -e; set -u;
 (
-  for f in *"/index.html"; do
+  for f in *"/web.expasy.org/docs/relnotes/relstat.html"; do
     echo "<p><a href=\"$f\">$f</a></p>"
   done
   
