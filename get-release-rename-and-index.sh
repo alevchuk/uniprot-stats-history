@@ -7,7 +7,7 @@
   echo "$sp_release"
   sp_dir="$sp_release-swiss-prot"
   mkdir "$sp_dir" 2> /dev/null && true
-  mv "swiss-prot/"* "$sp_dir/")
+  mv --no-clobber "swiss-prot/"* "$sp_dir/")
 
 (set -e; set -u;
   tr_file="trembl/www.ebi.ac.uk/uniprot/TrEMBLstats/relstat.html"
@@ -16,7 +16,7 @@
   echo "$tr_release"
   tr_dir="$tr_release-trembl"
   mkdir "$tr_dir" 2> /dev/null && true
-  mv "trembl/"* "$tr_dir/")
+  mv --no-clobber "trembl/"* "$tr_dir/")
 
 
 set -e; set -u;
