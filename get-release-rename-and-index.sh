@@ -29,4 +29,9 @@ set -e; set -u;
     echo "<p><a href=\"$f\">$f</a></p>"
   done
 ) | sort > index.html-tmp
+
+echo "<p>Code for the script that generated these archives:
+<a href=\"https://github.com/alevchuk/uniprot-stats-history/\"
+>https://github.com/alevchuk/uniprot-stats-history/</a></p>" >> index.html-tmp
+
 mv index.html{-tmp,}
