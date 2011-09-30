@@ -10,7 +10,7 @@ http://alevchuk.github.com/uniprot-stats-history
 
 Admins:
 
-Install CRON to check for update every Monday:
+Install CRON to check for update weekly:
 
   crontab -e
   # And add:
