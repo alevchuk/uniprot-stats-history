@@ -1,0 +1,590 @@
+
+<html>
+<head>
+<TITLE>UniProtKB/TrEMBL Release 2011_11 statistics</TITLE>
+</head>
+<!-- 1swiss-prot -->
+<body bgcolor="#FFFFFF">
+<PRE>
+
+         UniProtKB/TrEMBL PROTEIN DATABASE RELEASE 2011_11 STATISTICS
+
+
+1.  INTRODUCTION
+
+Release 2011_11 of 16-Nov-2011 of UniProtKB/TrEMBL contains 18215214 sequence entries,
+comprising 5957253786 amino acids .
+
+598389 sequences have been added since release 2011_10, the sequence data of
+18213 existing entries has been updated and the annotations of
+4334274 entries have been revised. This represents an increase of 4%.
+
+Number of fragments: 2924041
+
+Protein existence (PE):              entries      %
+1: Evidence at protein level           13085     0.07%
+2: Evidence at transcript level       547306     3.00%
+3: Inferred from homology            3857630    21.18%
+4: Predicted                        13797193    75.75%
+5: Uncertain                               0     0.00%
+
+The growth of the database is summarized below.
+
+   <img src="relstat1.png">
+
+
+
+2.  TAXONOMIC ORIGIN
+
+   Total number of species represented in this release of UniProtKB/TrEMBL: 402290
+
+   The first twenty species represent 1401675 sequences:   7.7 % of the
+   total number of entries.
+
+
+   2.1 Table of the frequency of occurrence of species
+
+        Species represented 1x:19458
+                            2x:69894
+                            3x:34878
+                            4x:20737
+                            5x:12750
+                            6x: 8987
+                            7x: 6784
+                            8x: 5108
+                            9x: 4082
+                           10x: 8288
+                       11- 20x:20384
+                       21- 50x: 7220
+                       51-100x: 2604
+                         &gt;100x: 5985
+
+
+   2.2  Table of the most represented species
+
+  ------  ---------  --------------------------------------------
+  Number  Frequency  Species
+  ------  ---------  --------------------------------------------
+       1     424245  Human immunodeficiency virus 1
+       2      97174  Homo sapiens (Human)
+       3      95242  Oryza sativa subsp. japonica (Rice)
+       4      65481  Hepatitis C virus
+       5      61045  uncultured bacterium
+       6      60485  Mus musculus (Mouse)
+       7      54039  Vitis vinifera (Grape)
+       8      52734  Danio rerio (Zebrafish) (Brachydanio rerio)
+       9      50480  Trichomonas vaginalis
+      10      46621  Hepatitis B virus (HBV)
+      11      44704  Arabidopsis thaliana (Mouse-ear cress)
+      12      44066  Populus trichocarpa (Western balsam poplar) 
+      13      42066  Zea mays (Maize)
+      14      42035  Callithrix jacchus (White-tufted-ear marmoset)
+      15      39841  Paramecium tetraurelia
+      16      39380  Oryza sativa subsp. indica (Rice)
+      17      37715  Macaca mulatta (Rhesus macaque)
+      18      35584  Ailuropoda melanoleuca (Giant panda)
+      19      34808  Physcomitrella patens subsp. patens (Moss)
+      20      33930  Rattus norvegicus (Rat)
+      21      33656  Sorghum bicolor (Sorghum) (Sorghum vulgare)
+      22      33269  Selaginella moellendorffii (Spikemoss)
+      23      33164  Drosophila melanogaster (Fruit fly)
+      24      32604  Arabidopsis lyrata subsp. lyrata (Lyre-leaved rock-cress)
+      25      31827  Caenorhabditis remanei (Caenorhabditis vulgaris)
+      26      31574  Monodelphis domestica (Gray short-tailed gray opossum)
+      27      31377  Ricinus communis (Castor bean)
+      28      30550  Daphnia pulex (Water flea)
+      29      30300  Caenorhabditis brenneri (Nematode worm)
+      30      29164  Branchiostoma floridae (Florida lancelet) (Amphioxus)
+      31      29025  Oikopleura dioica (Tunicate)
+      32      28925  Xenopus tropicalis (Western clawed frog) (Silurana tropicalis)
+      33      28091  Tetraodon nigroviridis (Spotted green pufferfish) (Chelonodon nigroviridis)
+      34      28012  Gasterosteus aculeatus (Three-spined stickleback)
+      35      27205  Canis familiaris (Dog) (Canis lupus familiaris)
+      36      27170  Bos taurus (Bovine)
+      37      27088  Gorilla gorilla gorilla (Lowland gorilla)
+      38      26915  Ornithorhynchus anatinus (Duckbill platypus)
+      39      25966  Simian immunodeficiency virus (isolate CPZ GAB1) (SIV-cpz) 
+      40      25515  Loxodonta africana (African elephant)
+      41      25011  Oryctolagus cuniculus (Rabbit)
+      42      24809  Nematostella vectensis (Starlet sea anemone)
+      43      24783  Gallus gallus (Chicken)
+      44      24757  Sus scrofa (Pig)
+      45      24185  Cricetulus griseus (Chinese hamster)
+      46      23643  Equus caballus (Horse)
+      47      23280  Escherichia coli
+      48      23115  Perkinsus marinus (strain ATCC 50983 / TXsc)
+      49      23098  Nomascus leucogenys (Northern white-cheeked gibbon) (Hylobates leucogenys)
+      50      22522  Sarcophilus harrisii (Tasmanian devil) (Sarcophilus laniarius)
+      51      21806  Caenorhabditis elegans
+      52      21552  Hordeum vulgare var. distichum (Two-rowed barley)
+      53      21093  Caenorhabditis briggsae
+      54      21089  Ixodes scapularis (Black-legged tick) (Deer tick)
+      55      20986  Ciona intestinalis (Transparent sea squirt) (Ascidia intestinalis)
+      56      20840  Myotis lucifugus (Little brown bat)
+      57      20433  Puccinia graminis f. sp. tritici (strain CRL 75-36-700-3 / race SCCL) 
+      58      19371  Ralstonia solanacearum (Pseudomonas solanacearum)
+      59      19204  Trypanosoma cruzi (strain CL Brener)
+      60      19182  Toxoplasma gondii
+      61      18903  Culex quinquefasciatus (Southern house mosquito) (Culex pungens)
+      62      18771  mine drainage metagenome
+      63      18600  Drosophila simulans (Fruit fly)
+      64      17839  Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) (Bicoloured deceiver) 
+      65      17784  Fusarium oxysporum (strain Fo5176) (Panama disease fungus)
+      66      17601  Phytophthora infestans (strain T30-4) (Potato late blight fungus)
+      67      17031  Drosophila yakuba (Fruit fly)
+      68      16989  Tribolium castaneum (Red flour beetle)
+      69      16754  Aedes aegypti (Yellowfever mosquito) (Culex aegypti)
+      70      16714  Drosophila persimilis (Fruit fly)
+      71      16643  Botryotinia fuckeliana (Noble rot fungus) (Botrytis cinerea)
+      72      16460  Clonorchis sinensis (Chinese liver fluke)
+      73      16425  Ectocarpus siliculosus (Brown alga)
+      74      16294  Loa loa (Eye worm)
+      75      16253  Trichinella spiralis (Trichina worm)
+      76      16239  Botryotinia fuckeliana (strain B05.10) (Noble rot fungus) (Botrytis cinerea)
+      77      16237  Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) 
+      78      16189  Drosophila sechellia (Fruit fly)
+      79      15989  Drosophila pseudoobscura pseudoobscura (Fruit fly)
+      80      15765  Meleagris gallopavo (Common turkey)
+      81      15765  Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173)  
+      82      15714  Naegleria gruberi (Amoeba)
+      83      15629  Nectria haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 / MPVI) 
+      84      15593  Anopheles gambiae (African malaria mosquito)
+      85      15417  Drosophila willistoni (Fruit fly)
+      86      15232  Tetrahymena thermophila (strain SB210)
+      87      15142  Drosophila ananassae (Fruit fly)
+      88      15029  Harpegnathos saltator (Jerdon's jumping ant)
+      89      14925  Hepatitis C virus subtype 1a
+      90      14922  Drosophila erecta (Fruit fly)
+      91      14850  Chlamydomonas reinhardtii (Chlamydomonas smithii)
+      92      14791  Camponotus floridanus (Florida carpenter ant)
+      93      14781  Drosophila mojavensis (Fruit fly)
+      94      14695  Drosophila virilis (Fruit fly)
+      95      14670  Plasmodium chabaudi
+      96      14650  Drosophila grimshawi (Fruit fly) (Idiomyia grimshawi)
+      97      14417  Volvox carteri (Green alga)
+      98      14339  Serpula lacrymans var. lacrymans (strain S7.3) (Dry rot fungus)
+      99      14324  Solenopsis invicta (Red imported fire ant) (Solenopsis wagneri)
+     100      14241  Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) (White mold) 
+     101      14157  Hepatitis C virus subtype 1b
+     102      13964  Acromyrmex echinatior (Panamanian leafcutter ant) 
+     103      13767  Aspergillus niger (strain CBS 513.88 / FGSC A1513)
+     104      13653  Plasmodium falciparum
+     105      13648  Moniliophthora perniciosa (strain FA553 / isolate CP02)  
+     106      13520  Schistosoma mansoni (Blood fluke)
+     107      13328  Aspergillus flavus 
+     108      13276  Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003)  
+     109      13165  Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)  
+     110      13121  Schizophyllum commune (strain H4-8 / FGSC 9210) (Split gill fungus)
+     111      12983  Albugo laibachii Nc14
+     112      12950  Stigmatella aurantiaca (strain DW4/3-1)
+     113      12936  Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) 
+     114      12722  Serpula lacrymans var. lacrymans (strain S7.9) (Dry rot fungus)
+     115      12702  Glycine max (Soybean) (Glycine hispida)
+     116      12696  Trypanosoma congolense (strain IL3000)
+     117      12682  Penicillium chrysogenum (strain ATCC 28089 / DSM 1075 / Wisconsin 54-1255) 
+     118      12575  Xenopus laevis (African clawed frog)
+     119      12446  Leptosphaeria maculans (strain JN3 / isolate v23.1.3 / race Av1-4-5-6-7-8)  
+     120      12444  Polysphondylium pallidum (Cellular slime mold)
+     121      12370  Trypanosoma cruzi
+     122      12352  Dictyostelium purpureum (Slime mold)
+     123      12152  Dictyostelium fasciculatum (strain SH3) (Slime mold)
+     124      11994  Pyrenophora tritici-repentis (strain Pt-1C-BFP) (Wheat tan spot fungus) 
+     125      11993  Colletotrichum graminicola (strain M1.001 / M2 / FGSC 10212)  
+     126      11837  Helicobacter pylori (Campylobacter pylori)
+     127      11717  Thalassiosira pseudonana (Marine diatom) (Cyclotella nana)
+     128      11703  Salpingoeca sp. (strain ATCC 50818) (Proterospongia sp. 
+     129      11685  Pyrenophora teres f. teres (strain 0-1) (Barley net blotch fungus) 
+     130      11650  Anopheles darlingi (Mosquito)
+     131      11645  Plasmodium berghei (strain Anka)
+     132      11586  Aspergillus oryzae (strain ATCC 42149 / RIB 40)
+     133      11562  Trichoplax adhaerens (Trichoplax reptans)
+     134      11557  Trypanosoma vivax Y486
+     135      11510  Aureococcus anophagefferens (Harmful bloom alga)
+     136      11497  Brugia malayi (Filarial nematode worm)
+     137      11478  Arthrobotrys oligospora (strain ATCC 24927 / CBS 115.81 / DSM 1491)  
+     138      11282  Picea sitchensis (Sitka spruce) (Pinus sitchensis)
+     139      11211  Ktedonobacter racemifer DSM 44963
+     140      10971  Mycosphaerella graminicola (strain CBS 115943 / IPO323)  
+     141      10966  Streptomyces clavuligerus ATCC 27064
+     142      10931  Schistosoma japonicum (Blood fluke)
+     143      10844  Pediculus humanus subsp. corporis (Body louse)
+     144      10820  Chaetomium globosum  
+     145      10670  Porcine reproductive and respiratory syndrome virus (PRRSV)
+     146      10571  Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) (Metarhizium anisopliae)
+     147      10547  Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383) 
+     148      10542  Verticillium dahliae (strain VdLs.17 / ATCC MYA-4575 / FGSC 10137)
+     149      10387  Pseudomonas syringae pv. glycinea str. race 4
+     150      10378  Neurospora tetrasperma (strain FGSC 2508 / ATCC MYA-4615 / P0657)
+     151      10377  Penicillium marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333)
+     152      10357  Phaeodactylum tricornutum (strain CCAP 1055/1)
+     153      10342  Rabies virus
+     154      10274  Micromonas pusilla (strain CCMP1545) (Picoplanktonic green alga)
+     155      10204  Verticillium albo-atrum (strain VaMs.102 / ATCC MYA-4576 / FGSC 10136) 
+     156      10194  Coccidioides posadasii (strain RMSCC 757 / Silveira) (Valley fever fungus)
+     157      10146  Ascaris suum (Pig roundworm) (Ascaris lumbricoides)
+     158      10110  Micromonas sp. (strain RCC299 / NOUM17) (Picoplanktonic green alga)
+     159      10089  Ajellomyces dermatitidis (strain ATCC 18188 / CBS 674.68) 
+     160      10088  Aspergillus terreus (strain NIH 2624 / FGSC A1156)
+     161      10052  Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / FGSC A1164 / NRRL 181) 
+     162      10015  Streptomyces bingchenggensis (strain BCW-1)
+     163       9890  Sordaria macrospora (strain ATCC MYA-333 / DSM 997 / K(L3346) / K-hell)
+     164       9836  Chlorella variabilis (Green alga)
+     165       9822  Metarhizium acridum (strain CQMa 102)
+     166       9780  Aspergillus nidulans FGSC A4
+     167       9760  Thielavia terrestris NRRL 8126
+     168       9705  Neosartorya fumigata (strain CEA10 / CBS 144.89 / FGSC A1163) 
+     169       9663  Trypanosoma brucei gambiense (strain MHOM/CI/86/DAL972)
+     170       9651  Cordyceps militaris (strain CM01) (Caterpillar fungus)
+     171       9551  Amycolatopsis mediterranei S699
+     172       9533  Ajellomyces dermatitidis (strain SLH14081) (Blastomyces dermatitidis)
+     173       9510  Ajellomyces capsulata (strain H143) (Darling's disease fungus) 
+     174       9485  Ajellomyces dermatitidis (strain ER-3 / ATCC MYA-2586) 
+     175       9443  Ajellomyces capsulata (strain H88) (Darling's disease fungus) 
+     176       9432  Salmo salar (Atlantic salmon)
+     177       9318  Anolis carolinensis (Green anole) (American chameleon)
+     178       9238  Monosiga brevicollis (Choanoflagellate)
+     179       9201  Amycolatopsis mediterranei (strain U-32)
+     180       9189  Streptomyces himastatinicus ATCC 53653
+     181       9162  Emericella nidulans (Aspergillus nidulans)
+     182       9161  Ajellomyces capsulata (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)  
+     183       9146  Ajellomyces capsulata (strain NAm1 / WU24) (Darling's disease fungus) 
+     184       9139  Pseudomonas syringae pv. pisi str. 1704B
+     185       9113  Sorangium cellulosum (strain So ce56) (Polyangium cellulosum (strain So ce56))
+     186       9112  Hypocrea jecorina (strain QM6a) (Trichoderma reesei)
+     187       9081  Myceliophthora thermophila ATCC 42464
+     188       9073  uncultured archaeon
+     189       9064  Paracoccidioides brasiliensis (strain ATCC MYA-826 / Pb01)
+     190       9016  Neurospora crassa 
+     191       9015  Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100) 
+     192       8992  Dictyostelium discoideum (Slime mold)
+     193       8971  Postia placenta (strain ATCC 44394 / Madison 698-R) (Brown rot fungus) 
+     194       8944  Streptosporangium roseum (strain ATCC 12428 / DSM 43021 / JCM 3005 / NI 9100)
+     195       8941  Streptomyces violaceusniger Tu 4113
+     196       8940  Burkholderia sp. TJI49
+     197       8900  Catenulispora acidiphila 
+     198       8860  Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) (Microsporum gypseum)
+     199       8796  Aspergillus clavatus 
+     200       8783  Pseudomonas syringae pv. japonica str. M301072PT
+     201       8755  Rhodococcus sp. (strain RHA1)
+     202       8743  Trypanosoma brucei brucei (strain 927/4 GUTat10.1)
+     203       8705  Klebsiella pneumoniae
+     204       8705  Trichophyton rubrum (strain ATCC MYA-4607 / CBS 118892) (Athlete's foot fungus)
+     205       8698  Paracoccidioides brasiliensis (strain Pb18)
+     206       8691  Streptomyces scabies (strain 87.22) (Streptomyces scabiei)
+     207       8676  Trichophyton equinum (strain ATCC MYA-4606 / CBS 127.97) (Horse ringworm fungus)
+     208       8661  Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) (Microsporum canis)
+     209       8609  Batrachochytrium dendrobatidis (strain JAM81 / FGSC 10211) (Frog chytrid fungus)
+     210       8599  Entamoeba dispar (strain ATCC PRA-260 / SAW760)
+     211       8520  Trichophyton tonsurans (strain CBS 112818) (Scalp ringworm fungus)
+     212       8437  Plesiocystis pacifica SIR-1
+     213       8437  Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast)
+     214       8394  Streptomyces sp. AA4
+     215       8374  Capsaspora owczarzaki (strain ATCC 30864)
+     216       8337  Bradyrhizobium japonicum
+     217       8308  Grosmannia clavigera (strain kw1407 / UAMH 11150) (Blue stain fungus) 
+     218       8302  Entamoeba histolytica
+     219       8273  Leishmania major
+     220       8248  Microscilla marina ATCC 23134
+     221       8203  Leishmania infantum
+     222       8202  Streptomyces sviceus ATCC 29083
+     223       8201  Microcoleus chthonoplastes PCC 7420
+     224       8185  Leishmania braziliensis
+     225       8163  Frankia sp. EUN1f
+     226       8154  Burkholderia xenovorans (strain LB400)
+     227       8112  Ichthyophthirius multifiliis (White spot disease agent) (Ich)
+     228       8044  Leishmania mexicana (strain MHOM/GT/2001/U1103)
+     229       7961  Leishmania donovani (strain BPK282A1)
+     230       7957  Trichophyton verrucosum (strain HKI 0517)
+     231       7954  Ostreococcus tauri
+     232       7943  Rhodococcus opacus (strain B4)
+     233       7917  Methylobacterium nodulans (strain ORS2060 / LMG 21967)
+     234       7906  Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) 
+     235       7865  Streptomyces ghanaensis ATCC 14672
+     236       7854  Acaryochloris marina (strain MBIC 11017)
+     237       7824  Paracoccidioides brasiliensis (strain Pb03)
+     238       7823  Burkholderia sp. Ch1-1
+     239       7808  Plasmodium yoelii yoelii
+     240       7781  Paenibacillus mucilaginosus (strain KNP414)
+     241       7773  Cupriavidus necator N-1
+     242       7708  Uncinocarpus reesii (strain UAMH 1704)
+     243       7706  Streptomyces viridochromogenes DSM 40736
+     244       7680  uncultured crenarchaeote
+     245       7577  Streptomyces zinciresistens K42
+     246       7571  Clostridium hathewayi DSM 13479
+     247       7563  Burkholderia pseudomallei MSHR346
+     248       7528  Streptomyces sp. C
+     249       7521  Streptomyces lividans TK24
+     250       7519  Solibacter usitatus (strain Ellin6076)
+
+
+   <a name="taxo_distr"></a>
+   2.3  Taxonomic distribution of the sequences
+
+   <img src="relstat3.gif">
+
+   Kingdom        sequences (% of the database)
+    Archaea          316709 (  2%)
+    Bacteria       11496696 ( 63%)
+    Eukaryota       5100702 ( 28%)
+    Viruses         1261126 (  7%)
+    Other             39980 ( &lt;1%)
+
+
+
+   Within Eukaryota:
+
+   <img src="relstat3e.gif">
+
+    Category            sequences (% of Eukaryota) (% of the complete database)
+     Human                  97210 (  2%)           (  1%)
+     Other Mammalia        639808 ( 13%)           (  4%)
+     Other Vertebrata      480767 (  9%)           (  3%)
+     Viridiplantae         920240 ( 18%)           (  5%)
+     Fungi                1097339 ( 22%)           (  6%)
+     Insecta               710625 ( 14%)           (  4%)
+     Nematoda              167386 (  3%)           (  1%)
+     Other                 987327 ( 19%)           (  5%)
+
+
+
+3.  SEQUENCE SIZE
+
+   Repartition of the sequences by size (excluding fragments)
+
+               From   To  Number             From   To   Number
+                  1-  50  398776             1001-1100   110450
+                 51- 100 1447709             1101-1200    78066
+                101- 150 1665068             1201-1300    54366
+                151- 200 1613378             1301-1400    35812
+                201- 250 1624197             1401-1500    28753
+                251- 300 1571870             1501-1600    20500
+                301- 350 1437794             1601-1700    15420
+                351- 400 1103423             1701-1800    12068
+                401- 450  941756             1801-1900     9917
+                451- 500  786675             1901-2000     8465
+                501- 550  531136             2001-2100     6727
+                551- 600  412624             2101-2200     6715
+                601- 650  300379             2201-2300     5341
+                651- 700  234504             2301-2400     4298
+                701- 750  202094             2401-2500     3632
+                751- 800  181373             &gt;2500        30716
+                801- 850  135891
+                851- 900  123371
+                901- 950   84518
+                951-1000   63391
+
+   <img src="relstat6.gif">
+
+
+   The average sequence length in UniProtKB/TrEMBL is   327 amino acids.
+
+   The shortest sequence is G0XMK1_9MYRT:     1 amino acids.
+   The longest sequence is  Q3ASY8_CHLCH: 36805 amino acids.
+
+
+
+4.  STATISTICS FOR SOME LINE TYPES
+
+The following table summarizes the total number of some UniProtKB/TrEMBL lines,
+as well as the number of entries with at least one such line, and the
+frequency of the lines.
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry
+---------------------------------  -------- ---------  ---------
+
+References (RL)                    22201220                1.22                                                    
+   Submitted to EMBL/GenBank/DDBJ  12377389  11028111      0.68                                                    
+   Journal                          9171330   8533717      0.50                                                    
+   Submitted to other databases      638109    629851      0.04                                                    
+   Thesis                              8614      8556     &lt;0.01                                                    
+   Book citation                       5743      5694     &lt;0.01                                                    
+   Unpublished observations              34        34     &lt;0.01                                                    
+   Patent                                 1         1     &lt;0.01                                                    
+
+Total number of distinct authors cited in UniProtKB/TrEMBL: 418995
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank
+---------------------------------  -------- ---------  ---------  ----
+
+Comments (CC)                      17527859                0.96                                                    
+   CATALYTIC ACTIVITY               1713616   1580094      0.09     4                                              
+   CAUTION                          5271692   5271684      0.29     1                                              
+   COFACTOR                          568146    540572      0.03     8                                              
+   DOMAIN                             45100     42602     &lt;0.01     9                                              
+   FUNCTION                         1896701   1756755      0.10     3                                              
+   INTERACTION                          628       628     &lt;0.01    11                                              
+   MISCELLANEOUS                      39850     39786     &lt;0.01    10                                              
+   PATHWAY                           882043    812825      0.05     6                                              
+   SIMILARITY                       4911567   4285467      0.27     2                                              
+   SUBCELLULAR LOCATION             1413874   1407200      0.08     5                                              
+   SUBUNIT                           784642    777213      0.04     7                                              
+
+Total number of comment topics: 11
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank
+---------------------------------  -------- ---------  ---------  ----
+
+Features (FT)                       5733452                0.31                                                    
+   CHAIN                             562932    444986      0.03     2                                              
+   NON_TER                          4779281   2923895      0.26     1                                              
+   SIGNAL                            390642    389486      0.02     3                                              
+   TRANSIT                              597       597     &lt;0.01     4                                              
+
+Total number of feature keys: 4
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank  Category
+---------------------------------  -------- ---------  ---------  ----  -------------------------------------------
+Cross-references (DR)             200322227               11.00                                                    
+   AGD                                 2526      2526     &lt;0.01    79   Organism-specific databases                
+   ANU-2DPAGE                            56        56     &lt;0.01    96   2D gel databases                           
+   Allergome                           2431      1834     &lt;0.01    82   Protein family/group databases             
+   ArachnoServer                         66        66     &lt;0.01    95   Organism-specific databases                
+   ArrayExpress                       90419     90407     &lt;0.01    50   Gene expression databases                  
+   BRENDA                              2752      2720     &lt;0.01    78   Enzyme and pathway databases               
+   Bgee                              109457    109254      0.01    48   Gene expression databases                  
+   BioCyc                            670301    655952      0.04    29   Enzyme and pathway databases               
+   CAZy                               74372     69868     &lt;0.01    54   Protein family/group databases             
+   CGD                                 7098      7098     &lt;0.01    73   Organism-specific databases                
+   COMPLUYEAST-2DPAGE                     5         5     &lt;0.01   100   2D gel databases                           
+   CTD                               244431    243572      0.01    40   Organism-specific databases                
+   CYGD                                   2         2     &lt;0.01   102   Organism-specific databases                
+   ConoServer                           167       167     &lt;0.01    90   Organism-specific databases                
+   DIP                                 2761      2756     &lt;0.01    77   Protein-protein interaction databases      
+   EMBL                            20590791  17923724      1.13     3   Sequence databases                         
+   Ensembl                           647654    631656      0.04    30   Genome annotation databases                
+   EnsemblBacteria                   835622    801467      0.05    28   Genome annotation databases                
+   EnsemblFungi                      173630    173381      0.01    47   Genome annotation databases                
+   EnsemblMetazoa                    308317    297803      0.02    37   Genome annotation databases                
+   EnsemblPlants                     271667    245732      0.01    38   Genome annotation databases                
+   EnsemblProtists                    77662     76593     &lt;0.01    51   Genome annotation databases                
+   EuPathDB                          179535    179534      0.01    45   Organism-specific databases                
+   FlyBase                           195605    194057      0.01    42   Organism-specific databases                
+   GO                              33597208  10990065      1.84     2   Ontologies                                 
+   Gene3D                           7603155   6090513      0.42     6   Family and domain databases                
+   GeneDB_Spombe                          1         1     &lt;0.01   104   Organism-specific databases                
+   GeneID                           6454385   6334113      0.35     9   Genome annotation databases                
+   GeneTree                         1150691   1150346      0.06    23   Phylogenomic databases                     
+   Genevestigator                     95990     95984      0.01    49   Gene expression databases                  
+   GenoList                           14746     14473     &lt;0.01    69   Organism-specific databases                
+   GenomeReviews                    4252609   4154229      0.23    12   Genome annotation databases                
+   Gramene                            68606     68606     &lt;0.01    55   Organism-specific databases                
+   H-InvDB                              594       483     &lt;0.01    87   Organism-specific databases                
+   HAMAP                            1376803   1361030      0.08    22   Family and domain databases                
+   HGNC                               36723     36658     &lt;0.01    61   Organism-specific databases                
+   HOGENOM                          2190622   2190580      0.12    20   Phylogenomic databases                     
+   HOVERGEN                          314542    314532      0.02    36   Phylogenomic databases                     
+   HSSP                              251807    251580      0.01    39   3D structure databases                     
+   IPI                               327442    327315      0.02    35   Sequence databases                         
+   InParanoid                        192463    192395      0.01    44   Phylogenomic databases                     
+   IntAct                             15593     15593     &lt;0.01    66   Protein-protein interaction databases      
+   InterPro                        37333290  13316343      2.05     1   Family and domain databases                
+   KEGG                             5166871   5064474      0.28    11   Genome annotation databases                
+   KO                               1946446   1936742      0.11    21                                              
+   LegioList                           5142      5114     &lt;0.01    74   Organism-specific databases                
+   Leproma                              936       935     &lt;0.01    86   Organism-specific databases                
+   MEROPS                             55645     55645     &lt;0.01    57   Protein family/group databases             
+   MGI                                37141     36878     &lt;0.01    60   Organism-specific databases                
+   MINT                                8938      8938     &lt;0.01    71   Protein-protein interaction databases      
+   NMPDR                             916215    916211      0.05    27   Genome annotation databases                
+   NextBio                            45391     45388     &lt;0.01    58   Other                                      
+   OMA                              3309472   3309462      0.18    15   Phylogenomic databases                     
+   OrthoDB                           579511    579347      0.03    31   Phylogenomic databases                     
+   PANTHER                          2638084   2500865      0.14    18   Family and domain databases                
+   PDB                                16033      9274     &lt;0.01    65   3D structure databases                     
+   PDBsum                             15538      9039     &lt;0.01    67   3D structure databases                     
+   PHCI-2DPAGE                          102       102     &lt;0.01    93   2D gel databases                           
+   PIR                               174739    141908      0.01    46   Sequence databases                         
+   PIRSF                            1148740   1148439      0.06    24   Family and domain databases                
+   PMAP-CutDB                           236       236     &lt;0.01    89   Other                                      
+   PMMA-2DPAGE                            2         2     &lt;0.01   101   2D gel databases                           
+   PRIDE                             227923    227882      0.01    41   Proteomic databases                        
+   PRINTS                           2856831   2537437      0.16    16   Family and domain databases                
+   PROSITE                          8686404   5792112      0.48     5   Family and domain databases                
+   Pathway_Interaction_DB                11         9     &lt;0.01    99   Enzyme and pathway databases               
+   PeptideAtlas                         146       146     &lt;0.01    91   Proteomic databases                        
+   PeroxiBase                          2522      2514     &lt;0.01    80   Protein family/group databases             
+   Pfam                            16933018  12551312      0.93     4   Family and domain databases                
+   PharmGKB                            2918      2918     &lt;0.01    76   Organism-specific databases                
+   PhosphoSite                         1604      1604     &lt;0.01    84   PTM databases                              
+   PhylomeDB                         370770    370738      0.02    33   Phylogenomic databases                     
+   ProDom                            329879    311571      0.02    34   Family and domain databases                
+   ProMEX                               312       312     &lt;0.01    88   Proteomic databases                        
+   ProtClustDB                      2723791   2723780      0.15    17   Phylogenomic databases                     
+   ProteinModelPortal               5676064   5672635      0.31    10   3D structure databases                     
+   PseudoCAP                           4568      4562     &lt;0.01    75   Organism-specific databases                
+   REBASE                             22033     21378     &lt;0.01    62   Protein family/group databases             
+   REPRODUCTION-2DPAGE                   89        88     &lt;0.01    94   2D gel databases                           
+   RGD                                14773     14552     &lt;0.01    68   Organism-specific databases                
+   Reactome                             141       119     &lt;0.01    92   Enzyme and pathway databases               
+   RefSeq                           6477525   6337216      0.36     8   Sequence databases                         
+   SGD                                   11        11     &lt;0.01    98   Organism-specific databases                
+   SMART                            3651622   2804427      0.20    13   Family and domain databases                
+   SMR                               931160    931160      0.05    26   3D structure databases                     
+   STRING                           2605700   2605516      0.14    19   Protein-protein interaction databases      
+   SUPFAM                           7264232   5994095      0.40     7   Family and domain databases                
+   SWISS-2DPAGE                          29        29     &lt;0.01    97   2D gel databases                           
+   Siena-2DPAGE                           2         2     &lt;0.01   103   2D gel databases                           
+   TAIR                               16659     16579     &lt;0.01    64   Organism-specific databases                
+   TCDB                                2467      2455     &lt;0.01    81   Protein family/group databases             
+   TIGR                              195018    187957      0.01    43   Genome annotation databases                
+   TIGRFAMs                         3559669   3245382      0.20    14   Family and domain databases                
+   TubercuList                         2096      2091     &lt;0.01    83   Organism-specific databases                
+   UCSC                               56237     56236     &lt;0.01    56   Genome annotation databases                
+   UniGene                           496617    464570      0.03    32   Sequence databases                         
+   VectorBase                         75585     75076     &lt;0.01    52   Genome annotation databases                
+   World-2DPAGE                         938       933     &lt;0.01    85   2D gel databases                           
+   WormBase                           40993     40879     &lt;0.01    59   Organism-specific databases                
+   Xenbase                            14009     13986     &lt;0.01    70   Organism-specific databases                
+   ZFIN                               21521     21516     &lt;0.01    63   Organism-specific databases                
+   dictyBase                           7779      7779     &lt;0.01    72   Organism-specific databases                
+   eggNOG                           1143514   1143514      0.06    25   Phylogenomic databases                     
+   euHCVdb                            75268     75265     &lt;0.01    53   Organism-specific databases                
+
+Number of <a href='http://www.uniprot.org/docs/dbxref'>explicitly cross-referenced databases</a>: 129
+
+
+5.  AMINO ACID COMPOSITION
+
+   5.1  Composition in percent for the complete database
+
+   Ala (A) 8.59   Gln (Q) 3.91   Leu (L) 9.86   Ser (S) 6.74
+   Arg (R) 5.47   Glu (E) 6.16   Lys (K) 5.25   Thr (T) 5.61
+   Asn (N) 4.11   Gly (G) 7.10   Met (M) 2.47   Trp (W) 1.31
+   Asp (D) 5.30   His (H) 2.21   Phe (F) 4.01   Tyr (Y) 3.03
+   Cys (C) 1.29   Ile (I) 5.95   Pro (P) 4.77   Val (V) 6.74
+
+   Asx (B) 0.000  Glx (Z) 0.000  Xaa (X) 0.04
+
+   <img src="relstat2.gif">
+
+   Legend: gray = aliphatic, red = acidic, green = small hydroxy,
+           blue = basic, black = aromatic, white = amide, yellow = sulfur
+
+
+   5.2  Classification of the amino acids by their frequency
+
+   Leu, Ala, Gly, Ser, Val, Glu, Ile, Thr, Arg, Asp, Lys, Pro, Asn, Phe,
+   Gln, Tyr, Met, His, Trp, Cys
+
+
+
+6.  MISCELLANEOUS STATISTICS
+
+Total number of entries encoded on a Mitochondrion: 586584
+Total number of entries encoded on a Plasmid: 249369
+Total number of entries encoded on a Plastid: 14778
+Total number of entries encoded on a Plastid; Apicoplast: 388
+Total number of entries encoded on a Plastid; Chloroplast: 150383
+Total number of entries encoded on a Plastid; Cyanelle: 8
+Total number of entries encoded on a Plastid; Non-photosynthetic plastid: 471
+
+</PRE>
+</body>
+</html>
