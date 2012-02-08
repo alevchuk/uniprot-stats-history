@@ -1,0 +1,6 @@
+# robots.txt for http://web.expasy.org/
+# mail webmaster@expasy.org for constructive criticism
+
+User-agent: *
+Disallow: /cgi-bin/
+
