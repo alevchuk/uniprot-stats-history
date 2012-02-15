@@ -55,6 +55,7 @@ Disallow: /embl/Documentation/top.html
 Disallow: /embnet.news
 Disallow: /ensembl/biomart
 Disallow: /EnsMart
+Disallow: /enzymeportal
 Disallow: /epo
 Disallow: /epo-dev
 Disallow: /errors
