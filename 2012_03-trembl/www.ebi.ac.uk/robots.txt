@@ -26,6 +26,7 @@ Disallow: /beta/
 Disallow: /biocat/
 Disallow: /biocatalogue
 Disallow: /bioinformatics
+Disallow: /biomodels/papers
 Disallow: /cgi-bin/printable
 Disallow: /cgi-bin/webservices
 Disallow: /cgi-bin/*?
