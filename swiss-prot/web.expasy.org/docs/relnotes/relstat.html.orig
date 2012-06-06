@@ -1750,7 +1750,7 @@ Number of entries with at least one sequence correction: 73422
 <div id = 'sib_footer'>			
   <!-- This part of the footer is _left_ justified and should contain SIB on the very left -->	
   <div id = 'sib_footer_content'> 
-    <a href = "http://www.isb-sib.ch">Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
+    <a href = "http://www.isb-sib.ch">SIB Swiss Institute of Bioinformatics</a>&nbsp;|&nbsp;<a href = "http://www.expasy.org/disclaimer.html">Disclaimer</a>
 
 	<!-- This part of the footer is _right_ justified -->
 	<div id = "sib_footer_right">	
