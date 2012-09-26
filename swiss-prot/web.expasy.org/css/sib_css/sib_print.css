@@ -1,5 +1,5 @@
 /* Swiss Institute of Bioinformatics */
-/* $Id: sib_print.css 64 2009-09-24 08:56:41Z smoretti $ */
+/* $Id: sib_print.css 116 2012-09-19 15:29:22Z rliechti $ */
 
 html, body{
 	height: 100%;
@@ -33,21 +33,21 @@ form{
 	background-color: #FFF;
 	height: 150px;
 	width: 100%;
-	color: #282828;
+	color: #000;
 	z-index: 2;
 	border-bottom: 1px solid #C3C3C3;
 }
 #sib_header{
 /*	background-image:url(../sib_images/sib_header_medium_bkgd.png);*/
-	height: 100px;		
-}                
+	height: 100px;
+}
 #sib_header h1 a, h2 a{
 	text-decoration: none;
-	color: #282828;
+	color: #000;
 }
 #sib_header_small{
 /*	background-image: url(../sib_images/sib_header_small_bkgd.png);*/
-	height: 50px;	
+	height: 50px;
 }
 #sib\_header_big #sib_logo, #sib\_header_small #sib_logo, #sib\_header #sib_logo{
 	position: absolute;
@@ -55,12 +55,12 @@ form{
 	left: 18px;
 	width: 199px;
 	height: 106px;
-	display: list-item;                
+	display: list-item;
 	list-style-image: url(../sib_images/sib_logo_print.gif);
-	list-style-position: inside;       
-	letter-spacing: -1000em;           
-	font-size: 1px;                    
-	color: #fff;                       
+	list-style-position: inside;
+	letter-spacing: -1000em;
+	font-size: 1px;
+	color: #fff;
 }
 #sib\_header #sib_logo{
 	top:12px;
@@ -72,7 +72,7 @@ form{
 	top:8px;
 	width: 42px;
 	height: 32px;
-	list-style-image: url(../sib_images/sib_logo_small_print.gif); 
+	list-style-image: url(../sib_images/sib_logo_small_print.gif);
 /*	background: transparent url(../sib_images/sib_logo_small_print.gif) no-repeat top left;*/
 }
 #sib_logo span{
@@ -83,7 +83,7 @@ form{
 	position: relative;
 	top: 50px;
 	margin: 0 50px;
-	color: #282828;
+	color: #000;
 	text-align: center;
 	font: 32px  Helvetica,Verdana, sans-serif;
 	white-space: nowrap;
@@ -93,7 +93,7 @@ form{
 	position: relative;
 	top: 60px;
 	margin: 0 50px;
-	color: #282828;
+	color: #000;
 	text-align: center;
 	font: 24px  Helvetica,Verdana, sans-serif;
 	white-space: nowrap;
@@ -202,7 +202,7 @@ form{
 #sib_header_nav a{
 	font: 10px Helvetica, sans-serif;
 	font-family: Helvetica;
-	color: #767676;
+	color: #282828;
 	text-decoration: none;
 }
 #sib_header_nav a:hover{
@@ -217,7 +217,7 @@ form{
 	background-color: #FFF;
 	min-height: 420px;
 	font-family: Helvetica;
-	color: #626262;
+	color: #000;
 	font-size: 12px;
 	z-index: 1;
 }
@@ -234,7 +234,7 @@ form{
 	left: -15px;
 }
 #sib_navigation a.navigation, a.navigation:visited {
-	color: #767676;
+	color: #282828;
 	text-decoration: none;
 }
 #sib_navigation a.navigation:hover {
@@ -243,7 +243,7 @@ form{
 /* Headers */
 #sib_body h1,h2,h3,h4,h5,h6 {
 	font-family: Helvetica;
-	color: #353535;
+	color: #000;
 }
 #sib_body h1 { font-size: 16px; }
 #sib_body h2 { font-size: 14px; }
@@ -277,7 +277,7 @@ form{
 /* Ordered list */
 #sib_body ul.sib_list { list-style-type: circle; }
 /* Simple menu built with a list of hyperlinks */
-#sib_body ul.sib_menu{ 
+#sib_body ul.sib_menu{
 	list-style-type: none;
 	width: 209px;
 	padding-left:0px; /*Disable the default padding left of ordered lists*/
@@ -323,7 +323,7 @@ ul.sib_menu li.sib_menu_selected {
 	font-weight: bold;
 }
 /* Simple menu built with hyperlink but displayed horizontally */
-#sib_body ul.sib_menu_horizontal{ 
+#sib_body ul.sib_menu_horizontal{
 	list-style-type: none;
 	height: 25px;
 	padding-left:0px; /*Disable the default padding left of ordered lists*/
@@ -343,7 +343,7 @@ ul.sib_menu_horizontal a, ul.sib_menu_horizontal a:visited {
 	line-height: 25px;
 	text-decoration: none;
 	font-size: 12px;
-	color: #371C1C;
+	color: #282828;
 }
 ul.sib_menu_horizontal li.sib_menu_selected {
 	border:1px solid #DBDBDB;
@@ -352,13 +352,13 @@ ul.sib_menu_horizontal li.sib_menu_selected {
 	float: left;
 }
 /* Drop down menu */
-/* ================================================================ 
+/* ================================================================
 This copyright notice must be untouched at all times.
 
 The original version of this stylesheet and the associated (x)html
 is available at http://www.cssplay.co.uk/menus/final_drop.html
 Copyright (c) 2005-2008 Stu Nicholls. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any 
+This stylesheet and the associated (x)html may be modified in any
 way to fit your requirements.
 =================================================================== */
 
@@ -371,7 +371,7 @@ way to fit your requirements.
 /* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
 .menu li {float:left;width:149px;position:relative;}
 /* style the links for the top level */
-.menu a, .menu a:visited {display:block;font-size:12px;text-decoration:none; color:#371C1C; width:138px; height:20px; border:1px solid #DBDBDB; border-width:1px 0 1px 1px; background:transparent; padding-left:10px; line-height:19px; font-weight:normal;}
+.menu a, .menu a:visited {display:block;font-size:12px;text-decoration:none; color:#282828; width:138px; height:20px; border:1px solid #DBDBDB; border-width:1px 0 1px 1px; background:transparent; padding-left:10px; line-height:19px; font-weight:normal;}
 /* a hack so that IE5.5 faulty box model is corrected */
 * html .menu a, * html .menu a:visited {width:149px; w\idth:138px;}
 
@@ -406,8 +406,8 @@ way to fit your requirements.
 * html .menu ul ul a, * html .menu ul ul a:visited {width:150px;w\idth:128px;}
 
 /* style the top level hover */
-.menu a:hover, .menu ul ul a:hover {color:#371C1C; background:#d8d8d8; text-decoration: underline;}
-.menu :hover > a, .menu ul ul :hover > a {color:#341C1C; background:#d8d8d8; text-decoration: underline;}
+.menu a:hover, .menu ul ul a:hover {color:#282828; background:#d8d8d8; text-decoration: underline;}
+.menu :hover > a, .menu ul ul :hover > a {color:#282828; background:#d8d8d8; text-decoration: underline;}
 
 /* make the second level visible when hover on first level list OR link */
 .menu ul li:hover ul,
@@ -457,7 +457,7 @@ way to fit your requirements.
 .sib_drop_menu table {position:absolute; top:0; left:0; border-collapse:collapse;}
 
 /* style the second level links */
-.sib_drop_menu ul ul a, .sib_drop_menu ul ul a:visited {background:#FFF; color:#555; height:auto; line-height:1em; padding:5px 10px; width:128px;border-bottom: 1px solid #ddd; font-weight: normal;}
+.sib_drop_menu ul ul a, .sib_drop_menu ul ul a:visited {background:#FFF; color:#282828; height:auto; line-height:1em; padding:5px 10px; width:128px;border-bottom: 1px solid #ddd; font-weight: normal;}
 /* yet another hack for IE5.5 */
 * html .sib_drop_menu ul ul a, * html .sib_drop_menu ul ul a:visited {width:150px;w\idth:128px;}
 
@@ -491,7 +491,7 @@ way to fit your requirements.
 }
 #sib_body a.sib_mail, #sib_body a.sib_mail:visited {
 	color: #319dd3;
-}                 
+}
 #sib_body ul.sib_menu li a.sib_link, #sib_body ul.sib_menu_horizontal li a.sib_link, #sib_body ul.sib_menu li a.sib_link:visited, #sib_body ul.sib_menu_horizontal li a.sib_link:visited {
 	color: #371C1C;
 }
@@ -499,7 +499,7 @@ way to fit your requirements.
 /* Forms elements */
 #sib_container input.sib_text{
 	border:1px solid #C3C3C3;
-	color:#989898;
+	color:#555;
 	font-size:11px;
 	font-weight:normal;
 	margin:5px;
@@ -547,7 +547,7 @@ way to fit your requirements.
 	bottom: 40px;
 	height: 20px;
 	width: 100%;
-	color: #999;
+	color: #666;
 	font-family: Verdana;
 	font-size: 11px;
 	font-weight: normal;
@@ -568,8 +568,8 @@ way to fit your requirements.
 	font-weight: normal;
 	z-index: 2;
 
-}                          
-#sib_footer_content{    
+}
+#sib_footer_content{
 	position: relative;
 	padding: 9px 36px 0px 36px;
 	padding-right: 0px;
@@ -656,7 +656,7 @@ way to fit your requirements.
 	text-decoration: underline;
 }
 /**** Horizontal Menu left aligned (more flexible) (index-menu2.html) ****/
-#sib_menu_nav_horizontal2 ul.sib_menu_horizontal2{ 
+#sib_menu_nav_horizontal2 ul.sib_menu_horizontal2{
 	list-style-type: none;
 	height: 25px;
 	padding-left:0px; /*Disable the default padding left of ordered lists*/
@@ -676,7 +676,7 @@ ul.sib_menu_horizontal2 a, ul.sib_menu_horizontal a:visited {
 	line-height: 25px;
 	text-decoration: none;
 	font-size: 12px;
-	color: #371C1C;
+	color: #282828;
 }
 ul.sib_menu_horizontal2 li.sib_menu_selected {
 	border:1px solid #DBDBDB;
