@@ -13,7 +13,7 @@
 	   <link rel="stylesheet" href="/css/sib_css/sib_ie6.css" type="text/css" media="screen" title="" charset="utf-8">
            <![endif]-->
            <link rel="stylesheet" href="/css/base.css" type="text/css"><!-- automatically added by Apache -->
-<TITLE>UniProtKB/Swiss-Prot Release 2012_11 statistics</TITLE>
+<TITLE>UniProtKB/Swiss-Prot Release 2013_01 statistics</TITLE>
 
 </head>
 
@@ -54,7 +54,7 @@
 
 
 
-         UniProtKB/Swiss-Prot protein knowledgebase release 2012_11 statistics
+         UniProtKB/Swiss-Prot protein knowledgebase release 2013_01 statistics
 
 
 
@@ -64,23 +64,23 @@
 
 
 
-Release 2012_11 of 28-Nov-12 of UniProtKB/Swiss-Prot contains 538585 sequence entries,
+Release 2013_01 of 09-Jan-13 of UniProtKB/Swiss-Prot contains 538849 sequence entries,
 
-comprising 191240774 amino acids abstracted from 215068 references. 
-
-
-
-328 sequences have been added since release 2012_10, the sequence data of
-
-36 existing entries has been updated and the annotations of
-
-437741 entries have been revised.
+comprising 191337357 amino acids abstracted from 215706 references. 
 
 
 
-Number of fragments: 9041
+272 sequences have been added since release 2012_11, the sequence data of
 
-Number of additional sequences produced by alternative splicing, initiation or promoter usage, or ribosomal frameshifting: 32693
+300 existing entries has been updated and the annotations of
+
+163026 entries have been revised.
+
+
+
+Number of fragments: 9045
+
+Number of additional sequences produced by alternative splicing, initiation or promoter usage, or ribosomal frameshifting: 32913
 
 
 
@@ -90,15 +90,15 @@ Protein existence (PE):           entries     %
 
 
 
-1: Evidence at protein level        76830   14.3%
+1: Evidence at protein level        77110   14.3%
 
-2: Evidence at transcript level     68114   12.6%
+2: Evidence at transcript level     68099   12.6%
 
-3: Inferred from homology          377436   70.1%
+3: Inferred from homology          377455     70%
 
-4: Predicted                        14314    2.7%
+4: Predicted                        14297    2.7%
 
-5: Uncertain                         1891    0.4%
+5: Uncertain                         1888    0.4%
 
 
 
@@ -116,11 +116,11 @@ The growth of the database is summarized below.
 
 
 
-   Total number of species represented in this release of UniProtKB/Swiss-Prot: 12930
+   Total number of species represented in this release of UniProtKB/Swiss-Prot: 12938
 
 
 
-   The first twenty species represent 112752 sequences:  20.9 % of the total
+   The first twenty species represent 112892 sequences:    21 % of the total
 
    number of entries.
 
@@ -132,27 +132,27 @@ The growth of the database is summarized below.
 
 
 
-        Species represented 1x: 5429
+        Species represented 1x: 5431
 
                             2x: 1883
 
-                            3x:  981
+                            3x:  983
 
-                            4x:  642
+                            4x:  641
 
                             5x:  466
 
                             6x:  382
 
-                            7x:  282
+                            7x:  284
 
-                            8x:  217
+                            8x:  218
 
                             9x:  199
 
-                           10x:  124
+                           10x:  123
 
-                       11- 20x:  669
+                       11- 20x:  672
 
                        21- 50x:  403
 
@@ -176,15 +176,15 @@ The growth of the database is summarized below.
 
        1      20232  Homo sapiens (Human)
 
-       2      16573  Mus musculus (Mouse)
+       2      16580  Mus musculus (Mouse)
 
-       3      11674  Arabidopsis thaliana (Mouse-ear cress)
+       3      11752  Arabidopsis thaliana (Mouse-ear cress)
 
-       4       7830  Rattus norvegicus (Rat)
+       4       7839  Rattus norvegicus (Rat)
 
        5       6621  Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)
 
-       6       5970  Bos taurus (Bovine)
+       6       5973  Bos taurus (Bovine)
 
        7       5089  Schizosaccharomyces pombe (strain 972 / ATCC 24843) (Fission yeast)
 
@@ -194,23 +194,23 @@ The growth of the database is summarized below.
 
       10       4126  Dictyostelium discoideum (Slime mold)
 
-      11       3371  Caenorhabditis elegans
+      11       3377  Caenorhabditis elegans
 
       12       3361  Xenopus laevis (African clawed frog)
 
-      13       3177  Drosophila melanogaster (Fruit fly)
+      13       3179  Drosophila melanogaster (Fruit fly)
 
-      14       2978  Oryza sativa subsp. japonica (Rice)
+      14       2995  Oryza sativa subsp. japonica (Rice)
 
-      15       2870  Danio rerio (Zebrafish) (Brachydanio rerio)
+      15       2872  Danio rerio (Zebrafish) (Brachydanio rerio)
 
       16       2253  Gallus gallus (Chicken)
 
       17       2218  Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)
 
-      18       2012  Escherichia coli O157:H7
+      18       2014  Escherichia coli O157:H7
 
-      19       1991  Mycobacterium tuberculosis
+      19       2005  Mycobacterium tuberculosis
 
       20       1787  Methanocaldococcus jannaschii  
 
@@ -218,13 +218,13 @@ The growth of the database is summarized below.
 
       22       1707  Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)
 
-      23       1686  Xenopus tropicalis (Western clawed frog) (Silurana tropicalis)
+      23       1688  Xenopus tropicalis (Western clawed frog) (Silurana tropicalis)
 
-      24       1678  Shigella flexneri
+      24       1681  Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
 
-      25       1675  Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
+      25       1678  Shigella flexneri
 
-      26       1409  Sus scrofa (Pig)
+      26       1411  Sus scrofa (Pig)
 
       27       1346  Salmonella typhi
 
@@ -238,7 +238,7 @@ The growth of the database is summarized below.
 
       32       1018  Yersinia pestis
 
-      33       1012  Archaeoglobus fulgidus 
+      33       1013  Archaeoglobus fulgidus 
 
       34        950  Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)
 
@@ -278,7 +278,7 @@ The growth of the database is summarized below.
 
       52        841  Escherichia coli O9:H4 (strain HS)
 
-      53        834  Neurospora crassa 
+      53        835  Neurospora crassa 
 
       54        834  Escherichia coli O139:H28 (strain E24377A / ETEC)
 
@@ -520,7 +520,7 @@ The growth of the database is summarized below.
 
      173        529  Listeria monocytogenes serotype 4b (strain F2365)
 
-     174        527  Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)
+     174        528  Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)
 
      175        522  Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50) 
 
@@ -538,17 +538,17 @@ The growth of the database is summarized below.
 
      182        510  Haemophilus ducreyi (strain 35000HP / ATCC 700724)
 
-     183        508  Bordetella parapertussis (strain 12822 / ATCC BAA-587 / NCTC 13253)
+     183        508  Corynebacterium glutamicum 
 
-     184        507  Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp)
+     184        508  Bordetella parapertussis (strain 12822 / ATCC BAA-587 / NCTC 13253)
 
-     185        507  Geobacillus kaustophilus (strain HTA426)
+     185        507  Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp)
 
-     186        506  Staphylococcus aureus (strain Newman)
+     186        507  Geobacillus kaustophilus (strain HTA426)
 
-     187        502  Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)
+     187        506  Staphylococcus aureus (strain Newman)
 
-     188        502  Corynebacterium glutamicum 
+     188        502  Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)
 
      189        501  Deinococcus radiodurans 
 
@@ -594,23 +594,23 @@ The growth of the database is summarized below.
 
      210        479  Pyrococcus horikoshii 
 
-     211        478  Synechococcus elongatus (strain PCC 7942) (Anacystis nidulans R2)
+     211        478  Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)
 
-     212        475  Pseudomonas putida (strain F1 / ATCC 700007)
+     212        478  Synechococcus elongatus (strain PCC 7942) (Anacystis nidulans R2)
 
-     213        474  Burkholderia sp. (strain 383) (Burkholderia cepacia 
+     213        475  Pseudomonas putida (strain F1 / ATCC 700007)
 
-     214        474  Brucella abortus (strain 2308)
+     214        474  Burkholderia sp. (strain 383) (Burkholderia cepacia 
 
-     215        473  Aspergillus oryzae (strain ATCC 42149 / RIB 40) (Yellow koji mold)
+     215        474  Brucella abortus (strain 2308)
 
-     216        472  Streptococcus pneumoniae (strain ATCC BAA-255 / R6)
+     216        473  Aspergillus oryzae (strain ATCC 42149 / RIB 40) (Yellow koji mold)
 
-     217        469  Methanosarcina mazei  
+     217        472  Streptococcus pneumoniae (strain ATCC BAA-255 / R6)
 
-     218        468  Pyrococcus abyssi (strain GE5 / Orsay)
+     218        469  Methanosarcina mazei  
 
-     219        467  Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)
+     219        468  Pyrococcus abyssi (strain GE5 / Orsay)
 
      220        467  Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) 
 
@@ -638,11 +638,11 @@ The growth of the database is summarized below.
 
      232        459  Cupriavidus pinatubonensis (strain JMP134 / LMG 1197) (Alcaligenes eutrophus) 
 
-     233        458  Enterococcus faecalis (strain ATCC 700802 / V583)
+     233        459  Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158)
 
-     234        455  Staphylococcus aureus (strain JH1)
+     234        458  Enterococcus faecalis (strain ATCC 700802 / V583)
 
-     235        455  Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158)
+     235        455  Staphylococcus aureus (strain JH1)
 
      236        454  Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath)
 
@@ -666,13 +666,13 @@ The growth of the database is summarized below.
 
      246        449  Hahella chejuensis (strain KCTC 2396)
 
-     247        448  Mycobacterium paratuberculosis (strain ATCC BAA-968 / K-10)
+     247        449  Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)
 
-     248        448  Streptococcus mutans serotype c (strain ATCC 700610 / UA159)
+     248        448  Mycobacterium paratuberculosis (strain ATCC BAA-968 / K-10)
 
-     249        447  Vibrio fischeri (strain MJ11)
+     249        448  Streptococcus mutans serotype c (strain ATCC 700610 / UA159)
 
-     250        446  Sulfolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2)
+     250        447  Vibrio fischeri (strain MJ11)
 
 
 
@@ -690,11 +690,11 @@ The growth of the database is summarized below.
 
    Kingdom        sequences (% of the database)
 
-    Archaea           18965 (  4%)
+    Archaea           18977 (  4%)
 
-    Bacteria         328610 ( 61%)
+    Bacteria         328667 ( 61%)
 
-    Eukaryota        174711 ( 32%)
+    Eukaryota        174906 ( 32%)
 
     Viruses           16299 (  3%)
 
@@ -714,19 +714,19 @@ The growth of the database is summarized below.
 
      Human                  20233 ( 12%)           (  4%)
 
-     Other Mammalia         45791 ( 26%)           (  9%)
+     Other Mammalia         45812 ( 26%)           (  9%)
 
-     Other Vertebrata       17309 ( 10%)           (  3%)
+     Other Vertebrata       17325 ( 10%)           (  3%)
 
-     Viridiplantae          33299 ( 19%)           (  6%)
+     Viridiplantae          33401 ( 19%)           (  6%)
 
-     Fungi                  30791 ( 18%)           (  6%)
+     Fungi                  30792 ( 18%)           (  6%)
 
-     Insecta                 8457 (  5%)           (  2%)
+     Insecta                 8498 (  5%)           (  2%)
 
-     Nematoda                4245 (  2%)           (  1%)
+     Nematoda                4252 (  2%)           (  1%)
 
-     Other                  14586 (  8%)           (  3%)
+     Other                  14593 (  8%)           (  3%)
 
 
 
@@ -744,45 +744,45 @@ The growth of the database is summarized below.
 
                From   To  Number             From   To   Number
 
-                  1-  50    8759             1001-1100     3735
+                  1-  50    8805             1001-1100     3738
 
-                 51- 100   41317             1101-1200     2586
+                 51- 100   41334             1101-1200     2586
 
-                101- 150   57562             1201-1300     2010
+                101- 150   57571             1201-1300     2011
 
-                151- 200   57652             1301-1400     1872
+                151- 200   57664             1301-1400     1873
 
-                201- 250   56424             1401-1500     1502
+                201- 250   56430             1401-1500     1503
 
-                251- 300   49851             1501-1600      729
+                251- 300   49870             1501-1600      730
 
-                301- 350   50018             1601-1700      562
+                301- 350   50051             1601-1700      561
 
-                351- 400   43218             1701-1800      458
+                351- 400   43231             1701-1800      459
 
-                401- 450   35415             1801-1900      423
+                401- 450   35430             1801-1900      424
 
-                451- 500   28505             1901-2000      351
+                451- 500   28518             1901-2000      351
 
-                501- 550   20261             2001-2100      212
+                501- 550   20272             2001-2100      212
 
-                551- 600   14535             2101-2200      285
+                551- 600   14547             2101-2200      285
 
-                601- 650   12231             2201-2300      292
+                601- 650   12246             2201-2300      292
 
-                651- 700    8821             2301-2400      172
+                651- 700    8828             2301-2400      172
 
-                701- 750    7269             2401-2500      136
+                701- 750    7274             2401-2500      136
 
-                751- 800    5161             &gt;2500         1082
+                751- 800    5171             &gt;2500         1082
 
-                801- 850    4526
+                801- 850    4528
 
-                851- 900    5013
+                851- 900    5015
 
-                901- 950    3857
+                901- 950    3861
 
-                951-1000    2742
+                951-1000    2743
 
 
 
@@ -814,7 +814,7 @@ The growth of the database is summarized below.
 
 
 
-   Total number of journals cited in this release of UniProtKB/Swiss-Prot: 2283
+   Total number of journals cited in this release of UniProtKB/Swiss-Prot: 2288
 
 
 
@@ -824,29 +824,29 @@ The growth of the database is summarized below.
 
 
 
-        Journals cited 1x:  750
+        Journals cited 1x:  749
 
-                       2x:  290
+                       2x:  292
 
-                       3x:  153
+                       3x:  156
 
-                       4x:  118
+                       4x:  117
 
-                       5x:   83
+                       5x:   84
 
-                       6x:   71
+                       6x:   72
 
-                       7x:   58
+                       7x:   56
 
                        8x:   45
 
-                       9x:   32
+                       9x:   34
 
-                      10x:   28
+                      10x:   26
 
-                  11- 20x:  184
+                  11- 20x:  185
 
-                  21- 50x:  190
+                  21- 50x:  191
 
                   51-100x:   99
 
@@ -864,167 +864,167 @@ The growth of the database is summarized below.
 
    --    ---------   -------------------------------------------------------------
 
-    1        20644   Journal of Biological Chemistry
+    1        20733   Journal of Biological Chemistry
 
-    2         9348   Proceedings of the National Academy of Sciences of the U.S.A.
+    2         9366   Proceedings of the National Academy of Sciences of the U.S.A.
 
-    3         5621   Journal of Bacteriology
+    3         5632   Journal of Bacteriology
 
-    4         4976   Biochemical and Biophysical Research Communications
+    4         4989   Biochemical and Biophysical Research Communications
 
-    5         4587   Gene
+    5         4589   Gene
 
-    6         4508   Nucleic Acids Research
+    6         4514   Nucleic Acids Research
 
-    7         4358   Biochemistry
+    7         4367   Biochemistry
 
-    8         4311   FEBS Letters
+    8         4321   FEBS Letters
 
-    9         4166   The EMBO Journal
+    9         4171   The EMBO Journal
 
-   10         3882   Molecular and Cellular Biology
+   10         3895   Molecular and Cellular Biology
 
-   11         3643   Nature
+   11         3648   Nature
 
-   12         3484   Journal of Molecular Biology
+   12         3496   Journal of Molecular Biology
 
-   13         3228   European Journal of Biochemistry
+   13         3235   European Journal of Biochemistry
 
-   14         3187   Biochimica et Biophysica Acta
+   14         3195   Biochimica et Biophysica Acta
 
-   15         2989   Cell
+   15         2992   Cell
 
-   16         2504   Genomics
+   16         2505   Genomics
 
-   17         2465   Journal of Virology
+   17         2476   Journal of Virology
 
-   18         2441   Biochemical Journal
+   18         2454   Biochemical Journal
 
-   19         2406   Science
+   19         2411   Science
 
-   20         2009   Molecular Microbiology
+   20         2018   Molecular Microbiology
 
-   21         1828   Journal of Cell Biology
+   21         1833   Journal of Cell Biology
 
-   22         1786   Plant Physiology
+   22         1805   Plant Physiology
 
-   23         1620   Plant Molecular Biology
+   23         1628   Plant Molecular Biology
 
-   24         1566   The American Journal of Human Genetics
+   24         1575   The American Journal of Human Genetics
 
-   25         1560   Genes and Development
+   25         1565   Genes and Development
 
-   26         1513   Virology
+   26         1514   Virology
 
-   27         1483   Nature Genetics
+   27         1489   Nature Genetics
 
-   28         1440   Human Molecular Genetics
+   28         1443   Human Molecular Genetics
 
-   29         1411   Oncogene
+   29         1412   Oncogene
 
-   30         1332   Molecular and General Genetics
+   30         1336   Molecular and General Genetics
 
-   31         1309   Development
+   31         1314   Development
 
    32         1290   Human Mutation
 
-   33         1271   Molecular Biology of the Cell
+   33         1275   Molecular Biology of the Cell
 
-   34         1235   The Plant Cell
+   34         1245   The Plant Cell
 
-   35         1227   Journal of Biochemistry
+   35         1228   Journal of Biochemistry
 
-   36         1168   Journal of Immunology
+   36         1171   Journal of Immunology
 
-   37         1110   Molecular Cell
+   37         1125   The Plant Journal
 
-   38         1108   The Plant Journal
+   38         1114   Molecular Cell
 
-   39         1091   Genetics
+   39         1096   Genetics
 
-   40         1049   Structure
+   40         1051   Structure
 
-   41         1013   Journal of General Virology
+   41         1015   Journal of General Virology
 
-   42          959   Blood
+   42          963   Blood
 
-   43          939   Infection and Immunity
+   43          943   Infection and Immunity
 
-   44          920   Archives of Biochemistry and Biophysics
+   44          921   Archives of Biochemistry and Biophysics
 
-   45          911   Journal of Cell Science
+   45          916   Journal of Cell Science
 
-   46          843   Microbiology
+   46          846   Microbiology
 
-   47          819   Developmental Biology
+   47          822   Developmental Biology
 
-   48          794   Cancer Research
+   48          796   Cancer Research
 
    49          785   Yeast
 
-   50          775   Current Biology
+   50          778   Current Biology
 
-   51          717   FEMS Microbiology Letters
+   51          719   FEMS Microbiology Letters
 
-   52          653   Acta Crystallographica, Section D
+   52          654   Acta Crystallographica, Section D
 
-   53          641   Protein Science
+   53          642   Protein Science
 
-   54          634   Journal of Neuroscience
+   54          635   Journal of Neuroscience
 
-   55          628   Toxicon
+   55          630   Toxicon
 
    56          624   Applied and Environmental Microbiology
 
-   57          623   Human Genetics
+   57          624   Human Genetics
 
-   58          619   Nature Structural Biology
+   58          620   Mechanisms of Development
 
-   59          617   Mechanisms of Development
+   59          620   Nature Structural Biology
 
-   60          582   Neuron
+   60          586   Neuron
 
-   61          565   Journal of Clinical Investigation
+   61          568   Journal of Clinical Investigation
 
    62          537   Current Genetics
 
-   63          533   American Journal of Physiology
+   63          535   American Journal of Physiology
 
    64          525   The Journal of Experimental Medicine
 
-   65          484   Proteins
+   65          487   PLoS ONE
 
-   66          481   Molecular Endocrinology
+   66          484   Proteins
 
-   67          480   PLoS ONE
+   67          482   Molecular Endocrinology
 
    68          479   Mammalian Genome
 
-   69          459   Journal of Neurochemistry
+   69          460   Journal of Neurochemistry
 
    70          456   Immunogenetics
 
-   71          445   Plant and Cell Physiology
+   71          453   Plant and Cell Physiology
 
-   72          441   The Journal of Clinical Endocrinology and Metabolism
+   72          442   The Journal of Clinical Endocrinology and Metabolism
 
    73          435   Bioscience, Biotechnology, and Biochemistry
 
-   74          432   Endocrinology
+   74          433   Endocrinology
 
-   75          429   Nature Cell Biology
+   75          432   Nature Cell Biology
 
    76          428   Molecular and Biochemical Parasitology
 
-   77          402   Journal of Medical Genetics
+   77          406   Journal of Medical Genetics
 
    78          396   Journal of Molecular Evolution
 
-   79          378   Molecular Biology and Evolution
+   79          379   Molecular Biology and Evolution
 
    80          377   DNA and Cell Biology
 
-   81          368   Experimental Cell Research
+   81          369   Experimental Cell Research
 
    82          364   DNA Sequence
 
@@ -1036,21 +1036,21 @@ The growth of the database is summarized below.
 
    86          318   Comparative Biochemistry and Physiology
 
-   87          315   Developmental Cell
+   87          317   Developmental Cell
 
-   88          312   Antimicrobial Agents and Chemotherapy
+   88          314   RNA
 
-   89          311   RNA
+   89          312   Antimicrobial Agents and Chemotherapy
 
-   90          306   Journal of Investigative Dermatology
+   90          308   Journal of Investigative Dermatology
 
    91          302   Molecular Pharmacology
 
-   92          296   Nature Structural and Molecular Biology
+   92          301   Nature Structural and Molecular Biology
 
-   93          294   Biological Chemistry Hoppe-Seyler
+   93          297   The FEBS Journal
 
-   94          293   The FEBS Journal
+   94          294   Biological Chemistry Hoppe-Seyler
 
    95          291   Planta
 
@@ -1058,33 +1058,33 @@ The growth of the database is summarized below.
 
    97          279   Cytogenetics and Cell Genetics
 
-   98          277   Neurology
+   98          278   Neurology
 
    99          267   Developmental Dynamics
 
-  100          264   Genome Research
+  100          265   Genome Research
 
-  101          262   Virus Research
+  101          263   Virus Research
 
   102          256   Journal of General Microbiology
 
-  103          249   EMBO Reports
+  103          251   EMBO Reports
 
   104          248   Immunity
 
-  105          246   Biochimie
+  105          247   Biochimie
 
-  106          245   Eukaryotic Cell
+  106          246   Eukaryotic Cell
 
   107          244   Molecular Plant-Microbe Interactions
 
-  108          234   The New England Journal of Medicine
+  108          237   Genes to Cells
 
-  109          233   The FASEB Journal
+  109          236   The FASEB Journal
 
-  110          233   Genes to Cells
+  110          234   The New England Journal of Medicine
 
-  111          227   European Journal of Immunology
+  111          228   European Journal of Immunology
 
   112          222   Annals of Neurology
 
@@ -1094,19 +1094,19 @@ The growth of the database is summarized below.
 
   115          212   DNA Research
 
-  116          209   Journal of Human Genetics
+  116          210   Journal of Human Genetics
 
-  117          198   Investigative Ophthalmology and Visual Science
+  117          201   Journal of the American Chemical Society
 
-  118          197   Journal of the American Chemical Society
+  118          198   Investigative Ophthalmology and Visual Science
 
   119          196   Archives of Microbiology
 
-  120          192   Nature Immunology
+  120          193   Nature Immunology
 
-  121          188   Archives of Virology
+  121          190   Archives of Virology
 
-  122          186   Journal of Cellular Biochemistry
+  122          188   Journal of Cellular Biochemistry
 
   123          183   Molecular and Cellular Endocrinology
 
@@ -1114,51 +1114,51 @@ The growth of the database is summarized below.
 
   125          183   American Journal of Medical Genetics. Part A
 
-  126          180   Molecular Immunology
+  126          181   Molecular Immunology
 
-  127          178   Glycobiology
+  127          179   Glycobiology
 
   128          176   Clinical Genetics
 
-  129          172   Insect Biochemistry and Molecular Biology
+  129          172   Diabetes
 
-  130          171   Diabetes
+  130          172   Insect Biochemistry and Molecular Biology
 
-  131          168   American Journal of Medical Genetics
+  131          172   Journal of Experimental Botany
 
-  132          168   Journal of Experimental Botany
+  132          170   Acta Crystallographica, Section F
 
-  133          168   Molecular Phylogenetics and Evolution
+  133          168   Journal of Medicinal Chemistry
 
-  134          167   Journal of Medicinal Chemistry
+  134          168   American Journal of Medical Genetics
 
-  135          167   Acta Crystallographica, Section F
+  135          168   Molecular Phylogenetics and Evolution
 
-  136          163   Circulation Research
+  136          164   Circulation Research
 
-  137          160   International Journal of Cancer
+  137          161   International Journal of Cancer
 
   138          159   DNA
 
   139          158   Molecular Reproduction and Development
 
-  140          155   Hemoglobin
+  140          155   PLoS Genetics
 
-  141          154   Bioorganicheskaia Khimiia
+  141          155   Hemoglobin
 
-  142          154   Molecular Genetics and Metabolism
+  142          154   Bioorganicheskaia Khimiia
 
-  143          153   PLoS Genetics
+  143          154   Molecular Genetics and Metabolism
 
-  144          152   Phytochemistry
+  144          153   Phytochemistry
 
-  145          149   Molecular Genetics and Genomics
+  145          150   Molecular Genetics and Genomics
 
-  146          149   Molecular and Cellular Neuroscience
+  146          150   Traffic
 
-  147          149   Biological Chemistry
+  147          150   Molecular and Cellular Neuroscience
 
-  148          148   Traffic
+  148          149   Biological Chemistry
 
   149          147   Protein Expression and Purification
 
@@ -1188,13 +1188,13 @@ frequency of the lines.
 
 
 
-References (RL)                      1031359                 1.91                                         
+References (RL)                      1034610                 1.92                                         
 
-   Journal                            824363     414226      1.53       1                                 
+   Journal                            827199     414711      1.54       1                                 
 
-   Submitted to EMBL/GenBank/DDBJ     197932     177360      0.37       2                                 
+   Submitted to EMBL/GenBank/DDBJ     198343     177678      0.37       2                                 
 
-   Submitted to other databases         6868       6405      0.01       3                                 
+   Submitted to other databases         6872       6408      0.01       3                                 
 
    Book citation                         720        706     &lt;0.01       4                                 
 
@@ -1210,7 +1210,7 @@ References (RL)                      1031359                 1.91
 
 
 
-Total number of distinct authors cited in UniProtKB/Swiss-Prot: 329749
+Total number of distinct authors cited in UniProtKB/Swiss-Prot: 330815
 
 
 
@@ -1220,65 +1220,65 @@ Total number of distinct authors cited in UniProtKB/Swiss-Prot: 329749
 
 ------------------------------------  -------- ---------  ---------  ----
 
-Comments (CC)                        2404620                 4.46                                         
+Comments (CC)                        2407401                 4.47                                         
 
-   ALLERGEN                              520        520     &lt;0.01      27                                 
+   ALLERGEN                              522        522     &lt;0.01      27                                 
 
-   ALTERNATIVE PRODUCTS                21381      21381      0.04      13                                 
+   ALTERNATIVE PRODUCTS                21483      21483      0.04      13                                 
 
-   BIOPHYSICOCHEMICAL PROPERTIES        4686       4686      0.01      23                                 
+   BIOPHYSICOCHEMICAL PROPERTIES        4730       4730      0.01      23                                 
 
    BIOTECHNOLOGY                         332        330     &lt;0.01      28                                 
 
-   CATALYTIC ACTIVITY                 242483     219702      0.45       4                                 
+   CATALYTIC ACTIVITY                 242293     219835      0.45       4                                 
 
-   CAUTION                              8137       7971      0.02      19                                 
+   CAUTION                              8146       7979      0.02      19                                 
 
-   COFACTOR                           106704      97556      0.20       7                                 
+   COFACTOR                           106756      97593      0.20       7                                 
 
-   DEVELOPMENTAL STAGE                  9713       9713      0.02      17                                 
+   DEVELOPMENTAL STAGE                  9749       9749      0.02      17                                 
 
-   DISEASE                              5151       3452      0.01      22                                 
+   DISEASE                              5169       3464      0.01      22                                 
 
-   DISRUPTION PHENOTYPE                 5164       5164      0.01      21                                 
+   DISRUPTION PHENOTYPE                 5271       5271      0.01      21                                 
 
-   DOMAIN                              38386      33964      0.07      10                                 
+   DOMAIN                              38493      34049      0.07      10                                 
 
-   ENZYME REGULATION                   10889      10889      0.02      15                                 
+   ENZYME REGULATION                   10937      10937      0.02      15                                 
 
-   FUNCTION                           417132     399994      0.77       2                                 
+   FUNCTION                           417519     400383      0.77       2                                 
 
-   INDUCTION                           14708      14708      0.03      14                                 
+   INDUCTION                           14754      14754      0.03      14                                 
 
-   INTERACTION                          9718       9718      0.02      16                                 
+   INTERACTION                          9794       9794      0.02      16                                 
 
-   MASS SPECTROMETRY                    5369       4089      0.01      20                                 
+   MASS SPECTROMETRY                    5384       4104      0.01      20                                 
 
-   MISCELLANEOUS                       32368      29917      0.06      12                                 
+   MISCELLANEOUS                       32403      29950      0.06      12                                 
 
-   PATHWAY                            131510     119341      0.24       6                                 
+   PATHWAY                            131616     119442      0.24       6                                 
 
    PHARMACEUTICAL                         89         89     &lt;0.01      29                                 
 
-   POLYMORPHISM                          875        822     &lt;0.01      24                                 
+   POLYMORPHISM                          876        823     &lt;0.01      24                                 
 
-   PTM                                 44805      35248      0.08       8                                 
+   PTM                                 45049      35418      0.08       8                                 
 
-   RNA EDITING                           623        623     &lt;0.01      25                                 
+   RNA EDITING                           625        625     &lt;0.01      25                                 
 
-   SEQUENCE CAUTION                    40776      40776      0.08       9                                 
+   SEQUENCE CAUTION                    40862      40862      0.08       9                                 
 
-   SIMILARITY                         638510     513851      1.19       1                                 
+   SIMILARITY                         639212     514135      1.19       1                                 
 
-   SUBCELLULAR LOCATION               325237     319441      0.60       3                                 
+   SUBCELLULAR LOCATION               325527     319723      0.60       3                                 
 
-   SUBUNIT                            241891     241891      0.45       5                                 
+   SUBUNIT                            242221     242221      0.45       5                                 
 
-   TISSUE SPECIFICITY                  38026      38026      0.07      11                                 
+   TISSUE SPECIFICITY                  38141      38141      0.07      11                                 
 
-   TOXIC DOSE                            532        500     &lt;0.01      26                                 
+   TOXIC DOSE                            539        506     &lt;0.01      26                                 
 
-   WEB RESOURCE                         8905       7111      0.02      18                                 
+   WEB RESOURCE                         8909       7115      0.02      18                                 
 
 
 
@@ -1294,85 +1294,85 @@ Total number of comment topics: 29
 
 ------------------------------------  -------- ---------  ---------  ----
 
-Features (FT)                        3681704                 6.84                                         
+Features (FT)                        3688013                 6.84                                         
 
-   ACT_SITE                           139333      85394      0.26       9                                 
+   ACT_SITE                           139423      85447      0.26       9                                 
 
-   BINDING                            277376      74100      0.52       4                                 
+   BINDING                            277669      74190      0.52       4                                 
 
-   CA_BIND                              3837       1587      0.01      35                                 
+   CA_BIND                              3871       1596      0.01      35                                 
 
-   CARBOHYD                           106933      27383      0.20      15                                 
+   CARBOHYD                           107061      27415      0.20      15                                 
 
-   CHAIN                              545460     532648      1.01       1                                 
+   CHAIN                              545694     532871      1.01       1                                 
 
-   COILED                              20083      13794      0.04      26                                 
+   COILED                              20112      13813      0.04      26                                 
 
-   COMPBIAS                            54061      28634      0.10      18                                 
+   COMPBIAS                            54122      28678      0.10      18                                 
 
-   CONFLICT                           126432      44359      0.23      12                                 
+   CONFLICT                           126695      44444      0.24      12                                 
 
    CROSSLNK                             6663       3889      0.01      34                                 
 
-   DISULFID                           107871      29288      0.20      14                                 
+   DISULFID                           108050      29356      0.20      14                                 
 
-   DNA_BIND                            10304       9416      0.02      31                                 
+   DNA_BIND                            10323       9427      0.02      31                                 
 
-   DOMAIN                             159836      94861      0.30       8                                 
+   DOMAIN                             160287      95247      0.30       8                                 
 
-   HELIX                              174673      17095      0.32       7                                 
+   HELIX                              175447      17152      0.33       7                                 
 
-   INIT_MET                            15304      15304      0.03      27                                 
+   INIT_MET                            15317      15317      0.03      27                                 
 
    INTRAMEM                             2139        919     &lt;0.01      37                                 
 
-   LIPID                               11846       7513      0.02      30                                 
+   LIPID                               11863       7529      0.02      30                                 
 
-   METAL                              312462      76970      0.58       3                                 
+   METAL                              312601      76996      0.58       3                                 
 
-   MOD_RES                            194824      63539      0.36       5                                 
+   MOD_RES                            195386      63649      0.36       5                                 
 
-   MOTIF                               35504      22959      0.07      24                                 
+   MOTIF                               35532      22966      0.07      24                                 
 
-   MUTAGEN                             41627       9700      0.08      22                                 
+   MUTAGEN                             41898       9752      0.08      22                                 
 
-   NON_CONS                             2028        743     &lt;0.01      38                                 
+   NON_CONS                             2029        744     &lt;0.01      38                                 
 
    NON_STD                               354        279     &lt;0.01      39                                 
 
-   NON_TER                             12189       9311      0.02      29                                 
+   NON_TER                             12193       9315      0.02      29                                 
 
-   NP_BIND                            116282      72499      0.22      13                                 
+   NP_BIND                            116341      72530      0.22      13                                 
 
-   PEPTIDE                              9933       6716      0.02      32                                 
+   PEPTIDE                             10020       6758      0.02      32                                 
 
-   PROPEP                              12612      10846      0.02      28                                 
+   PROPEP                              12619      10853      0.02      28                                 
 
-   REGION                             127574      65416      0.24      11                                 
+   REGION                             127845      65508      0.24      11                                 
 
-   REPEAT                              94346      13941      0.18      16                                 
+   REPEAT                              94439      13969      0.18      16                                 
 
-   SIGNAL                              38042      38032      0.07      23                                 
+   SIGNAL                              38100      38090      0.07      23                                 
 
-   SITE                                42688      24668      0.08      20                                 
+   SITE                                42720      24694      0.08      21                                 
 
-   STRAND                             183342      16165      0.34       6                                 
+   STRAND                             184128      16224      0.34       6                                 
 
-   TOPO_DOM                           129444      26855      0.24      10                                 
+   TOPO_DOM                           129782      26951      0.24      10                                 
 
-   TRANSIT                              8225       8122      0.02      33                                 
+   TRANSIT                              8240       8137      0.02      33                                 
 
-   TRANSMEM                           354763      73212      0.66       2                                 
+   TRANSMEM                           355191      73302      0.66       2                                 
 
-   TURN                                42646      13851      0.08      21                                 
+   TURN                                42832      13902      0.08      20                                 
 
-   UNSURE                               3104        583      0.01      36                                 
+   UNSURE                               3138        604      0.01      36                                 
 
-   VAR_SEQ                             43164      18550      0.08      19                                 
+   VAR_SEQ                             43421      18650      0.08      19                                 
 
-   VARIANT                             85093      16707      0.16      17                                 
+   VARIANT                             85160      16714      0.16      17                                 
 
-   ZN_FING                             29307      12892      0.05      25                                 
+   ZN_FING                             29308      12893      0.05      25                                 
 
 
 
@@ -1390,7 +1390,7 @@ Total number of feature keys: 39
 
 ------------------------------------  -------- ---------  ---------  ----      -------------------------------------------
 
-Cross-references (DR)               15686431                29.13                                                           
+Cross-references (DR)               15729659                29.19                                                           
 
    2DBase-Ecoli                           85         85     &lt;0.01     128      2D gel databases                             
 
@@ -1398,29 +1398,29 @@ Cross-references (DR)               15686431                29.13
 
    AGD                                   932        926     &lt;0.01     104      Organism-specific databases                  
 
-   Allergome                            1452        901     &lt;0.01     100      Protein family/group databases               
+   Allergome                            1463        913     &lt;0.01      99      Protein family/group databases               
 
    ANU-2DPAGE                             27         27     &lt;0.01     134      2D gel databases                             
 
    ArachnoServer                         763        755     &lt;0.01     110      Organism-specific databases                  
 
-   ArrayExpress                        59975      59975      0.11      43      Gene expression databases                    
+   ArrayExpress                        60006      60006      0.11      43      Gene expression databases                    
 
-   Bgee                                39217      39217      0.07      46      Gene expression databases                    
+   Bgee                                39220      39220      0.07      46      Gene expression databases                    
 
    BindingDB                             295        295     &lt;0.01     121      Other                                        
 
-   BioCyc                             250042     240701      0.46      22      Enzyme and pathway databases                 
+   BioCyc                             250066     240724      0.46      22      Enzyme and pathway databases                 
 
-   BRENDA                               4301       4291      0.01      91      Enzyme and pathway databases                 
+   BRENDA                               4303       4293      0.01      91      Enzyme and pathway databases                 
 
-   CAZy                                 7589       6830      0.01      75      Protein family/group databases               
+   CAZy                                 7594       6835      0.01      75      Protein family/group databases               
 
    CGD                                   692        670     &lt;0.01     111      Organism-specific databases                  
 
-   ChEMBL                               5221       5221      0.01      82      Other                                        
+   ChEMBL                               5222       5222      0.01      82      Other                                        
 
-   CleanEx                             30094      29453      0.06      52      Gene expression databases                    
+   CleanEx                             30093      29452      0.06      52      Gene expression databases                    
 
    COMPLUYEAST-2DPAGE                     99         98     &lt;0.01     127      2D gel databases                             
 
@@ -1428,103 +1428,103 @@ Cross-references (DR)               15686431                29.13
 
    Cornea-2DPAGE                          67         67     &lt;0.01     129      2D gel databases                             
 
-   CTD                                 69244      68588      0.13      41      Organism-specific databases                  
+   CTD                                 69548      68884      0.13      41      Organism-specific databases                  
 
    CYGD                                 5596       5593      0.01      79      Organism-specific databases                  
 
-   dictyBase                            4203       4087      0.01      93      Organism-specific databases                  
+   dictyBase                            4203       4086      0.01      93      Organism-specific databases                  
 
-   DIP                                 13814      13718      0.03      69      Protein-protein interaction databases        
+   DIP                                 13942      13848      0.03      69      Protein-protein interaction databases        
 
    DisProt                               398        395     &lt;0.01     119      3D structure databases                       
 
-   DMDM                                16764      16761      0.03      65      Polymorphism databases                       
+   DMDM                                16762      16759      0.03      65      Polymorphism databases                       
 
-   DNASU                               18662      18591      0.03      60      Protocols and materials databases            
+   DNASU                               18668      18597      0.03      59      Protocols and materials databases            
 
    DOSAC-COBS-2DPAGE                     149        147     &lt;0.01     124      2D gel databases                             
 
    DrugBank                             5319       1628      0.01      81      Other                                        
 
-   EchoBASE                             4167       4163      0.01      94      Organism-specific databases                  
+   EchoBASE                             4161       4161      0.01      94      Organism-specific databases                  
 
    EcoGene                              4292       4290      0.01      92      Organism-specific databases                  
 
-   eggNOG                             430231     430231      0.80       9      Phylogenomic databases                       
+   eggNOG                             430338     430338      0.80       9      Phylogenomic databases                       
 
-   EMBL                               931134     527687      1.73       3      Sequence databases                           
+   EMBL                               932778     527902      1.73       3      Sequence databases                           
 
-   Ensembl                             80025      48056      0.15      36      Genome annotation databases                  
+   Ensembl                             80175      47998      0.15      36      Genome annotation databases                  
 
-   EnsemblBacteria                     98041      85055      0.18      31      Genome annotation databases                  
+   EnsemblBacteria                     98095      85100      0.18      31      Genome annotation databases                  
 
-   EnsemblFungi                        17332      17040      0.03      64      Genome annotation databases                  
+   EnsemblFungi                        17423      17131      0.03      64      Genome annotation databases                  
 
-   EnsemblMetazoa                      11618       8861      0.02      72      Genome annotation databases                  
+   EnsemblMetazoa                      11906       8842      0.02      71      Genome annotation databases                  
 
-   EnsemblPlants                       15436      13681      0.03      68      Genome annotation databases                  
+   EnsemblPlants                       15549      13774      0.03      68      Genome annotation databases                  
 
-   EnsemblProtists                      4462       4337      0.01      90      Genome annotation databases                  
+   EnsemblProtists                      4461       4336      0.01      90      Genome annotation databases                  
 
    euHCVdb                                55         44     &lt;0.01     130      Organism-specific databases                  
 
    EuPathDB                              808        807     &lt;0.01     107      Organism-specific databases                  
 
-   EvolutionaryTrace                   16519      16519      0.03      66      Other                                        
+   EvolutionaryTrace                   16522      16522      0.03      66      Other                                        
 
-   FlyBase                              5876       5502      0.01      78      Organism-specific databases                  
+   FlyBase                              5878       5504      0.01      78      Organism-specific databases                  
 
-   Gene3D                             330556     253626      0.61      17      Family and domain databases                  
+   Gene3D                             330668     253728      0.61      17      Family and domain databases                  
 
-   GeneCards                           20037      19729      0.04      57      Organism-specific databases                  
+   GeneCards                           20032      19724      0.04      57      Organism-specific databases                  
 
    GeneFarm                             3095       3084      0.01      96      Organism-specific databases                  
 
-   GeneID                             499682     470414      0.93       6      Genome annotation databases                  
+   GeneID                             502238     470734      0.93       6      Genome annotation databases                  
 
-   GeneTree                            37616      37601      0.07      47      Phylogenomic databases                       
+   GeneTree                            37472      37454      0.07      47      Phylogenomic databases                       
 
-   Genevestigator                      67001      67001      0.12      42      Gene expression databases                    
+   Genevestigator                      67077      67077      0.12      42      Gene expression databases                    
 
    GenoList                             7069       7057      0.01      76      Organism-specific databases                  
 
-   GenomeReviews                      377303     357673      0.70      13      Genome annotation databases                  
+   GenomeReviews                      377431     357786      0.70      13      Genome annotation databases                  
 
-   GenomeRNAi                          21215      21215      0.04      55      Other                                        
+   GenomeRNAi                          21218      21218      0.04      55      Other                                        
 
-   GermOnline                          41901      41327      0.08      45      Gene expression databases                    
+   GermOnline                          41899      41325      0.08      45      Gene expression databases                    
 
    GlycoSuiteDB                          272        272     &lt;0.01     122      PTM databases                                
 
-   GO                                2363502     508271      4.39       1      Ontologies                                   
+   GO                                2384689     508755      4.43       1      Ontologies                                   
 
-   Gramene                              4863       4863      0.01      85      Organism-specific databases                  
+   Gramene                              4874       4874      0.01      85      Organism-specific databases                  
 
    H-InvDB                              5596       4774      0.01      80      Organism-specific databases                  
 
-   HAMAP                              313552     313321      0.58      18      Family and domain databases                  
+   HAMAP                              314607     314363      0.58      18      Family and domain databases                  
 
-   HGNC                                19818      19658      0.04      58      Organism-specific databases                  
+   HGNC                                19820      19660      0.04      58      Organism-specific databases                  
 
-   HOGENOM                            384786     384786      0.71      12      Phylogenomic databases                       
+   HOGENOM                            384939     384939      0.71      12      Phylogenomic databases                       
 
-   HOVERGEN                            75507      75507      0.14      38      Phylogenomic databases                       
+   HOVERGEN                            75521      75521      0.14      38      Phylogenomic databases                       
 
    HPA                                 17641      13725      0.03      62      Organism-specific databases                  
 
-   HSSP                                30506      30506      0.06      51      3D structure databases                       
+   HSSP                                30541      30541      0.06      51      3D structure databases                       
 
-   InParanoid                          69567      69567      0.13      40      Phylogenomic databases                       
+   InParanoid                          69654      69654      0.13      40      Phylogenomic databases                       
 
-   IntAct                              34165      34165      0.06      49      Protein-protein interaction databases        
+   IntAct                              34190      34190      0.06      49      Protein-protein interaction databases        
 
-   InterPro                          1771808     515731      3.29       2      Family and domain databases                  
+   InterPro                          1772273     516025      3.29       2      Family and domain databases                  
 
-   IPI                                 95611      67312      0.18      33      Sequence databases                           
+   IPI                                 95897      67412      0.18      33      Sequence databases                           
 
-   KEGG                               473793     447778      0.88       8      Genome annotation databases                  
+   KEGG                               477109     448500      0.89       8      Genome annotation databases                  
 
-   KO                                 371815     371440      0.69      14      Phylogenomic databases                       
+   KO                                 372577     372190      0.69      14      Phylogenomic databases                       
 
    LegioList                             765        763     &lt;0.01     109      Organism-specific databases                  
 
@@ -1532,79 +1532,79 @@ Cross-references (DR)               15686431                29.13
 
    MaizeGDB                              497        492     &lt;0.01     117      Organism-specific databases                  
 
-   MEROPS                              10489      10489      0.02      73      Protein family/group databases               
+   MEROPS                              10495      10495      0.02      73      Protein family/group databases               
 
-   MGI                                 16484      16439      0.03      67      Organism-specific databases                  
+   MGI                                 16491      16446      0.03      67      Organism-specific databases                  
 
-   MIM                                 17843      13545      0.03      61      Organism-specific databases                  
+   MIM                                 17881      13564      0.03      61      Organism-specific databases                  
 
-   MINT                                17627      17627      0.03      63      Protein-protein interaction databases        
+   MINT                                17628      17628      0.03      63      Protein-protein interaction databases        
 
-   NextBio                             70006      70006      0.13      39      Other                                        
+   NextBio                             70028      70028      0.13      39      Other                                        
 
-   neXtProt                            20092      20092      0.04      56      Organism-specific databases                  
+   neXtProt                            20088      20088      0.04      56      Organism-specific databases                  
 
    OGP                                   377        377     &lt;0.01     120      2D gel databases                             
 
-   OMA                                390820     390820      0.73      11      Phylogenomic databases                       
+   OMA                                390983     390983      0.73      11      Phylogenomic databases                       
 
    Orphanet                             4478       2566      0.01      89      Organism-specific databases                  
 
-   OrthoDB                             78162      78162      0.15      37      Phylogenomic databases                       
+   OrthoDB                             78177      78177      0.15      37      Phylogenomic databases                       
 
-   PANTHER                            195160     182128      0.36      24      Family and domain databases                  
+   PANTHER                            195971     182890      0.36      24      Family and domain databases                  
 
    Pathway_Interaction_DB               4568       1666      0.01      88      Enzyme and pathway databases                 
 
-   PATRIC                             308771     308746      0.57      20      Genome annotation databases                  
+   PATRIC                             308825     308800      0.57      20      Genome annotation databases                  
 
-   PaxDb                               37144      37144      0.07      48      Proteomic databases                          
+   PaxDb                               37152      37152      0.07      48      Proteomic databases                          
 
-   PDB                                 89826      18768      0.17      35      3D structure databases                       
+   PDB                                 90575      18883      0.17      35      3D structure databases                       
 
-   PDBsum                              89826      18768      0.17      34      3D structure databases                       
+   PDBsum                              90575      18883      0.17      34      3D structure databases                       
 
    PeptideAtlas                         5163       5163      0.01      83      Proteomic databases                          
 
    PeroxiBase                            770        754     &lt;0.01     108      Protein family/group databases               
 
-   Pfam                               715472     496265      1.33       4      Family and domain databases                  
+   Pfam                               717075     496698      1.33       4      Family and domain databases                  
 
-   PharmGKB                            18758      18341      0.03      59      Organism-specific databases                  
+   PharmGKB                            18375      18351      0.03      60      Organism-specific databases                  
 
    PHCI-2DPAGE                           250        250     &lt;0.01     123      2D gel databases                             
 
-   PhosphoSite                         33568      33568      0.06      50      PTM databases                                
+   PhosphoSite                         33567      33567      0.06      50      PTM databases                                
 
-   PhosSite                              629        617     &lt;0.01     113      PTM databases                                
+   PhosSite                              630        618     &lt;0.01     113      PTM databases                                
 
-   PhylomeDB                           27316      27316      0.05      54      Phylogenomic databases                       
+   PhylomeDB                           27408      27408      0.05      54      Phylogenomic databases                       
 
-   PIR                                118324     108199      0.22      28      Sequence databases                           
+   PIR                                118394     108268      0.22      28      Sequence databases                           
 
-   PIRSF                               98536      98521      0.18      30      Family and domain databases                  
+   PIRSF                               98641      98626      0.18      30      Family and domain databases                  
 
-   PMAP-CutDB                           1457       1457     &lt;0.01      99      Other                                        
+   PMAP-CutDB                           1457       1457     &lt;0.01     100      Other                                        
 
    PMMA-2DPAGE                            52         52     &lt;0.01     131      2D gel databases                             
 
-   PomBase                              5016       4958      0.01      84      Organism-specific databases                  
+   PomBase                              5015       4958      0.01      84      Organism-specific databases                  
 
    PptaseDB                               38         38     &lt;0.01     132      Protein family/group databases               
 
-   PRIDE                              110208     110208      0.20      29      Proteomic databases                          
+   PRIDE                              110438     110438      0.20      29      Proteomic databases                          
 
-   PRINTS                             137390     120196      0.26      26      Family and domain databases                  
+   PRINTS                             137351     120152      0.25      26      Family and domain databases                  
 
-   ProDom                              29296      29117      0.05      53      Family and domain databases                  
+   ProDom                              29297      29118      0.05      53      Family and domain databases                  
 
-   ProMEX                                514        514     &lt;0.01     115      Proteomic databases                          
+   ProMEX                                522        522     &lt;0.01     115      Proteomic databases                          
 
-   PROSITE                            480314     303499      0.89       7      Family and domain databases                  
+   PROSITE                            481632     303794      0.89       7      Family and domain databases                  
 
-   ProtClustDB                        343398     343398      0.64      15      Phylogenomic databases                       
+   ProtClustDB                        343546     343546      0.64      15      Phylogenomic databases                       
 
-   ProteinModelPortal                 429299     429299      0.80      10      3D structure databases                       
+   ProteinModelPortal                 430131     430131      0.80      10      3D structure databases                       
 
    PseudoCAP                            1250       1241     &lt;0.01     102      Organism-specific databases                  
 
@@ -1614,49 +1614,49 @@ Cross-references (DR)               15686431                29.13
 
    REBASE                                403        403     &lt;0.01     118      Protein family/group databases               
 
-   RefSeq                             523463     470695      0.97       5      Sequence databases                           
+   RefSeq                             526275     471064      0.98       5      Sequence databases                           
 
    REPRODUCTION-2DPAGE                  1256       1035     &lt;0.01     101      2D gel databases                             
 
-   RGD                                  7739       7735      0.01      74      Organism-specific databases                  
+   RGD                                  7748       7744      0.01      74      Organism-specific databases                  
 
    SGD                                  6640       6635      0.01      77      Organism-specific databases                  
 
    Siena-2DPAGE                          103        103     &lt;0.01     126      2D gel databases                             
 
-   SMART                              167264     125210      0.31      25      Family and domain databases                  
+   SMART                              167370     125293      0.31      25      Family and domain databases                  
 
-   SMR                                218816     218816      0.41      23      3D structure databases                       
+   SMR                                218885     218885      0.41      23      3D structure databases                       
 
-   STRING                             309407     309404      0.57      19      Protein-protein interaction databases        
+   STRING                             309486     309483      0.57      19      Protein-protein interaction databases        
 
-   SUPFAM                             330986     262074      0.61      16      Family and domain databases                  
+   SUPFAM                             330991     262581      0.61      16      Family and domain databases                  
 
    SWISS-2DPAGE                         1182       1181     &lt;0.01     103      2D gel databases                             
 
-   TAIR                                11691      11638      0.02      71      Organism-specific databases                  
+   TAIR                                11769      11716      0.02      72      Organism-specific databases                  
 
-   TCDB                                 3648       3633      0.01      95      Protein family/group databases               
+   TCDB                                 3658       3643      0.01      95      Protein family/group databases               
 
-   TIGRFAMs                           289921     269351      0.54      21      Family and domain databases                  
+   TIGRFAMs                           289954     269383      0.54      21      Family and domain databases                  
 
-   TubercuList                          2004       1968     &lt;0.01      98      Organism-specific databases                  
+   TubercuList                          2018       1982     &lt;0.01      98      Organism-specific databases                  
 
    UCD-2DPAGE                            509        500     &lt;0.01     116      2D gel databases                             
 
-   UCSC                                51958      39823      0.10      44      Genome annotation databases                  
+   UCSC                                51977      39842      0.10      44      Genome annotation databases                  
 
-   UniGene                             96522      87693      0.18      32      Sequence databases                           
+   UniGene                             96657      87808      0.18      32      Sequence databases                           
 
-   UniPathway                         131347     119192      0.24      27      Enzyme and pathway databases                 
+   UniPathway                         131503     119331      0.24      27      Enzyme and pathway databases                 
 
    VectorBase                            606        588     &lt;0.01     114      Genome annotation databases                  
 
-   World-2DPAGE                          919        908     &lt;0.01     105      2D gel databases                             
+   World-2DPAGE                          920        909     &lt;0.01     105      2D gel databases                             
 
-   WormBase                             4806       3888      0.01      86      Organism-specific databases                  
+   WormBase                             4818       3894      0.01      86      Organism-specific databases                  
 
-   Xenbase                              4720       4715      0.01      87      Organism-specific databases                  
+   Xenbase                              4728       4723      0.01      87      Organism-specific databases                  
 
    ZFIN                                 2783       2783      0.01      97      Organism-specific databases                  
 
@@ -1718,7 +1718,7 @@ Total number of cross-referenced databases: 134
 
 
 
-4460 entries are encoded on a mitochondrion, and 3695 are encoded on a plasmid.
+4460 entries are encoded on a mitochondrion, and 3697 are encoded on a plasmid.
 
 
 
@@ -1738,7 +1738,7 @@ of which 21 are encoded on apicoplasts,
 
 
 
-Number of entries with at least one sequence correction: 74158
+Number of entries with at least one sequence correction: 74284
 
 
 
