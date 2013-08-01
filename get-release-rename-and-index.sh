@@ -10,7 +10,7 @@
   mv --no-clobber "swiss-prot/"* "$sp_dir/")
 
 (set -e; set -u;
-  tr_file="trembl/www.ebi.ac.uk/uniprot/TrEMBLstats/relstat.html"
+  tr_file="trembl/www.ebi.ac.uk/uniprot/TrEMBLstats/"
   line=$(grep "PROTEIN DATABASE RELEASE" "$tr_file" | head -1)
   tr_release=$(expr "$line" : '.*RELEASE \(.*\) STATISTICS')
   #echo "$tr_release"
@@ -25,7 +25,7 @@ set -e; set -u;
     echo "<p><a href=\"$f\">$f</a></p>"
   done
   
-  for f in *"/www.ebi.ac.uk/uniprot/TrEMBLstats/relstat.html"; do
+  for f in *"/www.ebi.ac.uk/uniprot/TrEMBLstats/"; do
     echo "<p><a href=\"$f\">$f</a></p>"
   done
 ) | sort > index.html-tmp
