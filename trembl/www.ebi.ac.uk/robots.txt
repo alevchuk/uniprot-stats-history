@@ -12,8 +12,8 @@ Disallow: /
 User-agent: discobot 
 Disallow: /
 
-User-agent: msnbot
-Disallow: /
+#User-agent: msnbot
+#Disallow: /
 
 User-agent: EBISearch
 Crawl-Delay: 0
@@ -58,6 +58,8 @@ Disallow: /ega/dev
 Disallow: /embl/Documentation/FAQ/top.html
 Disallow: /embl/Documentation/top.html
 Disallow: /embnet.news
+Disallow: /ena/data/warehouse
+Disallow: /ena/data/view
 Disallow: /ensembl/biomart
 Disallow: /EnsMart
 Disallow: /epo
@@ -138,6 +140,8 @@ Disallow: /services/images
 Disallow: /services/include
 Disallow: /sift
 Disallow: /site_indexer
+Disallow: /sites/ebi.ac.uk/files/person/image/Emanuele_Alpi.jpeg
+Disallow: /sites/ebi.ac.uk/files/styles/medium/public/person/image/Emanuele_Alpi.jpeg
 Disallow: /soaplab
 Disallow: /software
 Disallow: /SSC
@@ -243,3 +247,7 @@ Disallow: /training/?q=search/
 Disallow: /training/?q=user/password/
 Disallow: /training/?q=user/register/
 Disallow: /training/?q=user/login/
+# Nodes
+Disallow: /training/Studentships
+Disallow: /training/studentships/howtoapply
+Disallow: /training/studentships/phdprojects

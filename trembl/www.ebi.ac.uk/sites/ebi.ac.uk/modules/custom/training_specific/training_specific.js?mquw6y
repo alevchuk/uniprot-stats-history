@@ -1,0 +1,52 @@
+// A JavaScript file for the training website when adding an Event
+// Clear Location fields for Event Content type if location-type is not @EBI
+// Paste the Event Start Date to the Event End Date
+// Paste the Event Start Registration Date to the Event End Registration Date
+
+// !! Note: target the correspondent input IDs to make it work	!!
+
+(function ($) {
+  Drupal.behaviors.training_specific =  {
+    attach: function (context, settings) {
+ 
+    var eventStartDate 		= '#edit-field-tr-event-date-und-0-value-datepicker-popup-0';
+    var eventEndDate 		= '#edit-field-tr-event-date-und-0-value2-datepicker-popup-0';
+    var eventRegStartDate 	= '#edit-field-tr-event-reg-opens-date-und-0-value-datepicker-popup-0';
+    var eventRegEndDate 	= '#edit-field-tr-event-reg-opens-date-und-0-value2-datepicker-popup-0';
+    
+    var eventLocType		= '#edit-field-tr-event-location-type-und';
+    var eventLocName 		= '#edit-field-tr-event-location-und-0-name';
+    var eventLocCity 		= '#edit-field-tr-event-location-und-0-city';
+    var eventLocPostCode 	= '#edit-field-tr-event-location-und-0-postal-code';
+    var eventLocCountry 	= '#edit-field-tr-event-location-und-0-country';
+    
+   	  // Clear Location fields for Event Content type if location-type is not @EBI
+      $(eventLocType).change(function() {
+        var myValue = $(this).val();
+		  if (myValue == "At EMBL-EBI") {
+			$(eventLocName).val('European Bioinformatics Institute');
+		    $(eventLocPostCode).val('CB10 1SD');
+			$(eventLocCountry).val('gb');
+		  }
+		  else {
+            $(eventLocName).val('');
+			$(eventLocCity).val('');
+			$(eventLocPostCode).val('');
+			$(eventLocCountry).val('');
+		  }
+	    });
+
+      // Paste the Event Start Date to the Event End Date
+	  // Based on the jQuery Datpicker: http://jqueryui.com/datepicker/#alt-field
+      $(eventStartDate).change(function() {
+    	  $(eventEndDate).val($(eventStartDate).val());
+      });
+
+      // Paste the Event Start Registration Date to the Event End Registration Date
+	  // Based on the jQuery Datpicker: http://jqueryui.com/datepicker/#alt-field
+      $(eventRegStartDate).change(function() {
+    	  $(eventRegEndDate).val($(eventRegStartDate).val());
+      });
+	}
+  }
+})(jQuery);
