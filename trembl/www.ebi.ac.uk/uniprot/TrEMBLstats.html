@@ -1,0 +1,806 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->	<!-- Not yet implemented -->
+
+<!-- START: default Drupal Head Metatags -->
+  <meta charset="utf-8" />
+<meta property="twitter:site:id" content="123582098" />
+<meta property="twitter:creator" content="@emblebi" />
+<meta property="twitter:creator:id" content="123582098" />
+<meta property="twitter:url" content="http://www.ebi.ac.uk/uniprot/TrEMBLstats" />
+<meta property="twitter:site" content="@emblebi" />
+<meta property="twitter:card" content="summary" />
+<meta content="Current Release Statistics" about="/uniprot/TrEMBLstats" property="dc:title" />
+<meta property="twitter:title" content="Current Release Statistics" />
+<link rel="canonical" href="TrEMBLstats.html" />
+<link rel="shortlink" href="http://www.ebi.ac.uk/node/1075" />
+<!-- END: default Drupal Head Metatags -->
+
+  <title>Current Release Statistics &lt; Uniprot &lt; EMBL-EBI</title>
+  <meta name="author" content="EMBL-EBI"><!-- Your [project-name] here -->
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="../web_guidelines/css/compliance/develop/boilerplate-style.css">
+  <link type="text/css" rel="stylesheet" href="../sites/ebi.ac.uk/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/ebi.ac.uk/files/css/css_6z9YLyvHu9hldkIQFm447bL5kIJd6aXLJo4jPwkIOuE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/ebi.ac.uk/files/css/css_5tHYrawKW1tBLDGY1JVKHwwrG3eKjbT9yJ4ap_KPq5E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/ebi.ac.uk/files/css/css_t_adunccstC3BMbLFCqsqEUhEqJhdXDbdr8Njj-7dx0.css" media="all" />
+  <link rel="stylesheet" href="../web_guidelines/css/compliance/mini/ebi-fluid-embl-noboilerplate.css" type="text/css" media="screen">
+  <!-- end CSS-->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+
+  <!-- Full build -->
+  <!-- <script src="//www.ebi.ac.uk/web_guidelines/js/libs/modernizr.minified.2.1.6.js"></script> -->
+
+  <!-- custom build (lacks most of the "advanced" HTML5 support -->
+  <script src="../web_guidelines/js/libs/modernizr.custom.49274.js"></script>
+  <script type="text/javascript" src="http://www.ebi.ac.uk/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.ebi.ac.uk/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.ebi.ac.uk/misc/drupal.js?mr9ncu"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/modules/contrib/caption_filter/js/caption-filter.js%3Fmr9ncu"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/modules/contrib/lightbox2/js/auto_image_handling.js%3Fmr9ncu"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/modules/contrib/lightbox2/js/lightbox.js%3F1376066573"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/modules/contrib/panels/js/panels.js%3Fmr9ncu"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/modules/custom/training_specific/training_specific.js%3Fmr9ncu"></script>
+<script type="text/javascript" src="../sites/ebi.ac.uk/libraries/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js%3Fmr9ncu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ebicompliance","theme_token":"Pum2zef_e2i3LWtCI9TsfUdogiROGCeoeSQYqWUsfEA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/ebi.ac.uk\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/ebi.ac.uk\/modules\/contrib\/lightbox2\/js\/auto_image_handling.js":1,"sites\/ebi.ac.uk\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"sites\/ebi.ac.uk\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/ebi.ac.uk\/modules\/custom\/training_specific\/training_specific.js":1,"sites\/ebi.ac.uk\/libraries\/tinymce\/jscripts\/tiny_mce\/plugins\/media\/js\/embed.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/views\/css\/views.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/caption_filter\/caption-filter.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/shib_auth\/shib_auth.css":1,"sites\/ebi.ac.uk\/modules\/contrib\/biblio\/biblio.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/ebi-industry.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/ebi-training.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/calendar_multiday.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/drupal-reset.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/header-banners.css":1,"sites\/ebi.ac.uk\/themes\/custom\/ebicompliance\/css\/style.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/ebi.ac.uk\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":"lightbox_ungrouped","custom_trigger_classes":"img.lightbox-triggerclass","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"ogContext":{"groupType":"node","gid":"513"}});
+//--><!]]>
+</script>
+
+</head>
+
+<body class="level1 html not-front not-logged-in no-sidebars page-node page-node- page-node-1075 node-type-page og-context og-context-node og-context-node-513 role-anonymous-user user-0 page-uniprot-tremblstats section-uniprot subsection-tremblstats domain-www">
+
+<!-- page_top -->
+    <!-- page -->
+      <div id="skip-to">
+		<ul>
+			<li><a href="TrEMBLstats.html#content">Skip to main content</a></li>
+			<li><a href="TrEMBLstats.html#local-nav">Skip to local navigation</a></li>
+			<li><a href="TrEMBLstats.html#global-nav">Skip to EBI global navigation menu</a></li>
+			<li><a href="TrEMBLstats.html#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
+		</ul>
+	</div>
+
+
+  <div id="wrapper" class="container_24 page">
+    <header>
+    	<div id="global-masthead" class="masthead grid_24">
+      
+			<a href="http://www.ebi.ac.uk/" title="Go to the EMBL-EBI homepage"><img src="../web_guidelines/images/logos/EMBL-EBI/EMBL_EBI_Logo_white.png" alt="EMBL European Bioinformatics Institute"></a>
+			
+			<nav>
+        <ul id="global_nav"><li class="menu-3273 menu-services first" id="services"><a href="http://www.ebi.ac.uk/services" title="">Services</a></li>
+<li class="menu-3274 menu-research" id="research"><a href="http://www.ebi.ac.uk/research" title="">Research</a></li>
+<li class="menu-3248 menu-training" id="training"><a fix="h-" href="http://www.ebi.ac.uk/training" title="">Training</a></li>
+<li class="menu-3275 menu-industry" id="industry"><a href="http://www.ebi.ac.uk/industry" title="">Industry</a></li>
+<li class="menu-3272 menu-about-us last" id="about-us"><a href="http://www.ebi.ac.uk/about" title="">About us</a></li>
+</ul>			</nav>
+			
+		</div>
+		
+		<div id="local-masthead" class="masthead grid_24 nomenu">
+			      <div class="grid_24" id="local-title">
+          
+  
+  
+  <div class="content">
+    
+<h1><a fix="h-" href="http://www.ebi.ac.uk/uniprot" title="Back to UniProt"><img src="../web_guidelines/images/logos/uniprot/logo.png" alt="UniProt" width="110" height="50" style="border: 0px;" /></a></h1>
+  </div>
+
+			</div>
+      
+						
+			
+            <nav>
+  				  
+
+                
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul id="local_nav" class="grid_24"><li class="first last menu-mlid-3464 menu-overview menu-3464"><a href="http://www.ebi.ac.uk/uniprot" title="">Overview</a></li>
+</ul></div>
+
+
+			</nav>
+      
+		</div>
+    </header>
+
+    <div id="content" role="main" class="grid_24 clearfix">
+    	
+    
+	   
+	      <nav id="breadcrumb">
+		  <p><a href="http://www.ebi.ac.uk/uniprot" title="">Uniprot</a> &gt; Current Release Statistics</p>
+	  </nav>
+        
+    
+        
+        <section class="grid_24">
+          			        <h2>Current Release Statistics</h2>
+ 			                        										
+              
+    
+  <div class="content">
+    <div id="node-1075" class="node node-page clearfix" about="/uniprot/TrEMBLstats" typeof="foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even" property="content:encoded">
+
+<pre>
+
+         UniProtKB/TrEMBL PROTEIN DATABASE RELEASE 2013_08 STATISTICS
+
+
+1.  INTRODUCTION
+
+Release 2013_08 of 24-Jul-2013 of UniProtKB/TrEMBL contains 41451118 sequence entries,
+comprising 13208986710 amino acids .
+
+1589741 sequences have been added since release 2013_07, the sequence data of
+3518 existing entries has been updated and the annotations of
+4454156 entries have been revised. This represents an increase of 4%.
+
+Number of fragments: 4339045
+
+Protein existence (PE):              entries      %
+1: Evidence at protein level           20352     0.05%
+2: Evidence at transcript level       823009     1.99%
+3: Inferred from homology            8297415    20.02%
+4: Predicted                        32310342    77.95%
+5: Uncertain                               0     0.00%
+
+The growth of the database is summarized below.
+</pre>
+<img src="../inc/drupal/uniprot/statistics/relstat1.png" alt="image" />
+<pre>
+
+
+
+2.  TAXONOMIC ORIGIN
+
+   Total number of species represented in this release of UniProtKB/TrEMBL: 426778
+
+   The first twenty species represent 1885947 sequences:   4.5 % of the
+   total number of entries.
+
+
+   2.1 Table of the frequency of occurrence of species
+
+        Species represented 1x:17611
+                            2x:69912
+                            3x:37768
+                            4x:26917
+                            5x:16093
+                            6x:11337
+                            7x: 8656
+                            8x: 6834
+                            9x: 5396
+                           10x:10576
+                       11- 20x:30529
+                       21- 50x:10129
+                       51-100x: 3919
+                         &gt;100x:12598
+
+
+   2.2  Table of the most represented species
+
+  ------  ---------  --------------------------------------------
+  Number  Frequency  Species
+  ------  ---------  --------------------------------------------
+       1     543519  Human immunodeficiency virus 1
+       2     199370  uncultured bacterium
+       3     113495  Homo sapiens (Human)
+       4      96864  Oryza sativa subsp. japonica (Rice)
+       5      88788  Hepatitis C virus
+       6      73836  Glycine max (Soybean) (Glycine hispida)
+       7      70412  Hordeum vulgare var. distichum (Two-rowed barley)
+       8      69137  Macaca mulatta (Rhesus macaque)
+       9      60526  Zea mays (Maize)
+      10      59640  Hepatitis B virus (HBV)
+      11      56466  Mus musculus (Mouse)
+      12      56144  Medicago truncatula (Barrel medic) (Medicago tribuloides)
+      13      54889  Solanum tuberosum (Potato)
+      14      54121  Vitis vinifera (Grape)
+      15      52253  Danio rerio (Zebrafish) (Brachydanio rerio)
+      16      50601  Trichomonas vaginalis
+      17      49237  Tetraodon nigroviridis (Spotted green pufferfish) (Chelonodon nigroviridis)
+      18      48897  Takifugu rubripes (Japanese pufferfish) (Fugu rubripes)
+      19      44560  Populus trichocarpa (Western balsam poplar) 
+      20      43192  Callithrix jacchus (White-tufted-ear marmoset)
+      21      41389  Arabidopsis thaliana (Mouse-ear cress)
+      22      41203  Brassica rapa subsp. pekinensis (Chinese cabbage) (Brassica pekinensis)
+      23      39850  Paramecium tetraurelia
+      24      39838  Oryza sativa subsp. indica (Rice)
+      25      39300  Setaria italica (Foxtail millet) (Panicum italicum)
+      26      38796  Mustela putorius furo (European domestic ferret) (Mustela furo)
+      27      38163  human gut metagenome
+      28      36673  Drosophila melanogaster (Fruit fly)
+      29      36522  Musa acuminata subsp. malaccensis (Wild banana) (Musa malaccensis)
+      30      35905  Solanum lycopersicum (Tomato) (Lycopersicon esculentum)
+      31      35631  Ailuropoda melanoleuca (Giant panda)
+      32      35599  Emiliania huxleyi CCMP1516
+      33      35205  Acyrthosiphon pisum (Pea aphid)
+      34      35066  Caenorhabditis japonica
+      35      34927  Simian immunodeficiency virus (SIV)
+      36      34830  Physcomitrella patens subsp. patens (Moss)
+      37      34570  Thalassiosira oceanica (Marine diatom)
+      38      34355  Aegilops tauschii (Tausch's goatgrass) (Aegilops squarrosa)
+      39      33839  Sorghum bicolor (Sorghum) (Sorghum vulgare)
+      40      33253  Selaginella moellendorffii (Spikemoss)
+      41      32767  Arabidopsis lyrata subsp. lyrata (Lyre-leaved rock-cress)
+      42      32342  Oryza brachyantha
+      43      32200  Sus scrofa (Pig)
+      44      32122  Caenorhabditis remanei (Caenorhabditis vulgaris)
+      45      32094  Oryza glaberrima (African rice)
+      46      31849  Pan troglodytes (Chimpanzee)
+      47      31386  Ricinus communis (Castor bean)
+      48      31207  Capitella teleta
+      49      30921  Daphnia pulex (Water flea)
+      50      30300  Caenorhabditis brenneri (Nematode worm)
+      51      30146  Brachypodium distachyon (Purple false brome) (Trachynia distachya)
+      52      29815  Amphimedon queenslandica (Sponge)
+      53      29451  Strongylocentrotus purpuratus (Purple sea urchin)
+      54      29317  Pristionchus pacificus (Parasitic nematode)
+      55      29183  Branchiostoma floridae (Florida lancelet) (Amphioxus)
+      56      29054  Oikopleura dioica (Tunicate)
+      57      28835  Xenopus tropicalis (Western clawed frog) (Silurana tropicalis)
+      58      28825  Capsella rubella
+      59      28778  Escherichia coli
+      60      28613  Prunus persica (Peach) (Amygdalus persica)
+      61      28495  Canis familiaris (Dog) (Canis lupus familiaris)
+      62      28080  Gasterosteus aculeatus (Three-spined stickleback)
+      63      27743  Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)
+      64      27504  Oreochromis niloticus (Nile tilapia) (Tilapia nilotica)
+      65      27454  Equus caballus (Horse)
+      66      27089  Gorilla gorilla gorilla (Lowland gorilla)
+      67      26824  Crassostrea gigas (Pacific oyster) (Crassostrea angulata)
+      68      25964  Oryzias latipes (Medaka fish) (Japanese ricefish)
+      69      25796  Loxodonta africana (African elephant)
+      70      25724  Rattus norvegicus (Rat)
+      71      25721  Phytophthora sojae (strain P6497) (Soybean stem and root rot agent) 
+      72      25652  Bos taurus (Bovine)
+      73      25092  Oryctolagus cuniculus (Rabbit)
+      74      24905  Nematostella vectensis (Starlet sea anemone)
+      75      24643  Tetrahymena thermophila (strain SB210)
+      76      24590  Guillardia theta CCMP2712
+      77      24374  Triticum urartu (Red wild einkorn) (Crithodium urartu)
+      78      24208  Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus)
+      79      23716  Ornithorhynchus anatinus (Duckbill platypus)
+      80      23565  Oxytricha trifallax
+      81      23502  Latimeria chalumnae (West Indian ocean coelacanth)
+      82      23115  Perkinsus marinus (strain ATCC 50983 / TXsc)
+      83      22750  Monodelphis domestica (Gray short-tailed opossum)
+      84      22562  Sarcophilus harrisii (Tasmanian devil) (Sarcophilus laniarius)
+      85      22546  Caenorhabditis elegans
+      86      22313  Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii)
+      87      22163  gut metagenome
+      88      21548  Heterocephalus glaber (Naked mole rat)
+      89      21346  Caenorhabditis briggsae
+      90      21309  Gallus gallus (Chicken)
+      91      21106  Ixodes scapularis (Black-legged tick) (Deer tick)
+      92      20937  Felis catus (Cat) (Felis silvestris catus)
+      93      20867  Myotis lucifugus (Little brown bat)
+      94      20838  Tupaia chinensis (Chinese tree shrew)
+      95      20758  Pelodiscus sinensis (Chinese softshell turtle) (Trionyx sinensis)
+      96      20512  Xiphophorus maculatus (Southern platyfish) (Platypoecilus maculatus)
+      97      20133  Otolemur garnettii (Small-eared galago) (Garnett's greater bushbaby)
+      98      20114  Ciona savignyi (Pacific transparent sea squirt)
+      99      20072  Cavia porcellus (Guinea pig)
+     100      19985  Spermophilus tridecemlineatus (Thirteen-lined ground squirrel) 
+     101      19816  Nomascus leucogenys (Northern white-cheeked gibbon) (Hylobates leucogenys)
+     102      19684  Taeniopygia guttata (Zebra finch) (Poephila guttata)
+     103      19551  Anolis carolinensis (Green anole) (American chameleon)
+     104      19544  Pteropus alecto (Black flying fox)
+     105      19438  Wuchereria bancrofti
+     106      19334  Toxoplasma gondii
+     107      19200  Trypanosoma cruzi (strain CL Brener)
+     108      19057  Chelonia mydas (Green sea-turtle) (Chelonia agassizi)
+     109      18946  Culex quinquefasciatus (Southern house mosquito) (Culex pungens)
+     110      18855  Drosophila simulans (Fruit fly)
+     111      18771  mine drainage metagenome
+     112      18592  Ciona intestinalis (Transparent sea squirt) (Ascidia intestinalis)
+     113      18555  Bos grunniens mutus
+     114      18121  Atta cephalotes (Leafcutter ant)
+     115      18024  Anopheles gambiae (African malaria mosquito)
+     116      17839  Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686) (Bicoloured deceiver) 
+     117      17784  Fusarium oxysporum (strain Fo5176) (Panama disease fungus)
+     118      17599  Phytophthora infestans (strain T30-4) (Potato late blight fungus)
+     119      17518  Bombyx mori (Silk moth)
+     120      17412  Aedes aegypti (Yellowfever mosquito) (Culex aegypti)
+     121      17296  Anas platyrhynchos (Domestic duck) (Anas boschas)
+     122      17282  Nasonia vitripennis (Parasitic wasp)
+     123      17046  Tribolium castaneum (Red flour beetle)
+     124      17040  Drosophila yakuba (Fruit fly)
+     125      16946  Rhizopus delemar (strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880)  
+     126      16914  Meleagris gallopavo (Common turkey)
+     127      16714  Drosophila persimilis (Fruit fly)
+     128      16698  Drosophila pseudoobscura pseudoobscura (Fruit fly)
+     129      16643  Fusarium oxysporum f. sp. lycopersici  
+     130      16638  Plasmodium falciparum
+     131      16469  Hepatitis C virus subtype 1b
+     132      16426  Ectocarpus siliculosus (Brown alga)
+     133      16338  Botryotinia fuckeliana (strain T4) (Noble rot fungus) (Botrytis cinerea)
+     134      16329  Danaus plexippus (Monarch butterfly)
+     135      16274  Trichinella spiralis (Trichina worm)
+     136      16237  Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) 
+     137      16188  Drosophila sechellia (Fruit fly)
+     138      16156  Schistosoma japonicum (Blood fluke)
+     139      16110  Colletotrichum higginsianum (strain IMI 349063) (Crucifer anthracnose fungus)
+     140      15793  Puccinia graminis f. sp. tritici (strain CRL 75-36-700-3 / race SCCL) 
+     141      15762  Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173)  
+     142      15716  Naegleria gruberi (Amoeba)
+     143      15653  Nectria haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 / MPVI) 
+     144      15568  Phytophthora ramorum (Sudden oak death agent)
+     145      15461  Myotis davidii (David's myotis)
+     146      15421  Drosophila willistoni (Fruit fly)
+     147      15371  Colletotrichum gloeosporioides (strain Nara gc5) (Anthracnose fungus) 
+     148      15354  Loa loa (Eye worm) (Filaria loa)
+     149      15345  Fusarium oxysporum f. sp. cubense race 1
+     150      15225  Pythium ultimum
+     151      15177  Hepatitis C virus subtype 1a
+     152      15144  Drosophila ananassae (Fruit fly)
+     153      15041  Harpegnathos saltator (Jerdon's jumping ant)
+     154      14942  Acanthamoeba castellanii str. Neff
+     155      14927  Drosophila erecta (Fruit fly)
+     156      14910  Dendroctonus ponderosae (mountain pine beetle)
+     157      14858  Chlamydomonas reinhardtii (Chlamydomonas smithii)
+     158      14853  Klebsiella pneumoniae
+     159      14801  Camponotus floridanus (Florida carpenter ant)
+     160      14791  Drosophila mojavensis (Fruit fly)
+     161      14713  Plasmodium chabaudi
+     162      14704  Drosophila virilis (Fruit fly)
+     163      14652  Drosophila grimshawi (Fruit fly) (Idiomyia grimshawi)
+     164      14610  Gaeumannomyces graminis var. tritici (strain R3-111a-1) 
+     165      14417  Volvox carteri (Green alga)
+     166      14341  Solenopsis invicta (Red imported fire ant) (Solenopsis wagneri)
+     167      14339  Serpula lacrymans var. lacrymans (strain S7.3) (Dry rot fungus)
+     168      14265  uncultured archaeon
+     169      14236  Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) (White mold) 
+     170      14147  Fusarium oxysporum f. sp. cubense race 4
+     171      13970  Acromyrmex echinatior (Panamanian leafcutter ant) 
+     172      13923  Hyaloperonospora arabidopsidis (strain Emoy2) (Downy mildew agent) 
+     173      13900  Rabies virus
+     174      13876  Clonorchis sinensis (Chinese liver fluke)
+     175      13867  Phanerochaete carnosa (strain HHB-10118-sp) (White-rot fungus) 
+     176      13801  Macrophomina phaseolina (strain MS6) (Charcoal rot fungus)
+     177      13766  Aspergillus niger (strain CBS 513.88 / FGSC A1513)
+     178      13648  Moniliophthora perniciosa (strain FA553 / isolate CP02)  
+     179      13588  Trypanosoma cruzi
+     180      13345  Aspergillus flavus 
+     181      13336  Colletotrichum orbiculare   
+     182      13267  Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003)  
+     183      13121  Schizophyllum commune (strain H4-8 / FGSC 9210) (Split gill fungus)
+     184      13062  Pseudocercospora fijiensis CIRAD86
+     185      13043  Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)  
+     186      12983  Albugo laibachii Nc14
+     187      12962  Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) 
+     188      12950  Stigmatella aurantiaca (strain DW4/3-1)
+     189      12900  Gibberella zeae (strain PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084)  
+     190      12858  Magnaporthe oryzae Y34
+     191      12857  Bipolaris maydis C5
+     192      12754  Porcine reproductive and respiratory syndrome virus (PRRSV)
+     193      12722  Serpula lacrymans var. lacrymans (strain S7.9) (Dry rot fungus)
+     194      12711  Magnaporthe oryzae P131
+     195      12705  Bipolaris maydis ATCC 48331
+     196      12697  Penicillium chrysogenum (strain ATCC 28089 / DSM 1075 / Wisconsin 54-1255) 
+     197      12696  Trypanosoma congolense (strain IL3000)
+     198      12681  Schistosoma mansoni (Blood fluke)
+     199      12629  Xenopus laevis (African clawed frog)
+     200      12586  Leptosphaeria maculans (strain JN3 / isolate v23.1.3 / race Av1-4-5-6-7-8)  
+     201      12447  Fusarium pseudograminearum (strain CS3096) (Wheat and barley crown-rot fungus)
+     202      12440  Polysphondylium pallidum (Cellular slime mold)
+     203      12414  Dothistroma septosporum NZE10
+     204      12389  Hypocrea virens (strain Gv29-8 / FGSC 10586) (Gliocladium virens) 
+     205      12352  Dictyostelium purpureum (Slime mold)
+     206      12342  Helicobacter pylori (Campylobacter pylori)
+     207      12197  Rhizoctonia solani AG-1 IB
+     208      12174  Bipolaris sorokiniana ND90Pr
+     209      12152  Dictyostelium fasciculatum (strain SH3) (Slime mold)
+     210      12078  Ceriporiopsis subvermispora B
+     211      12011  Apis mellifera (Honeybee)
+     212      11994  Pyrenophora tritici-repentis (strain Pt-1C-BFP) (Wheat tan spot fungus) 
+     213      11993  Colletotrichum graminicola (strain M1.001 / M2 / FGSC 10212)  
+     214      11941  Emericella nidulans  
+     215      11815  Hypocrea atroviridis (strain ATCC 20476 / IMI 206040) (Trichoderma atroviride)
+     216      11780  Piriformospora indica (strain DSM 11827)
+     217      11752  Chondrocladia sp. SMF
+   2.3  Taxonomic distribution of the sequences
+
+</pre>
+<img src="../inc/drupal/uniprot/statistics/relstat3.gif" alt="image" />
+<pre>
+
+   Kingdom        sequences (% of the database)
+    Archaea          689097 (  2%)
+    Bacteria       30768592 ( 74%)
+    Eukaryota       8131770 ( 20%)
+    Viruses         1757465 (  4%)
+    Other            104193 ( &lt;1%)
+
+
+
+   Within Eukaryota:
+
+</pre>
+<img src="../inc/drupal/uniprot/statistics/relstat3e.gif" alt="image" />
+<pre>
+
+    Category            sequences (% of Eukaryota) (% of the complete database)
+     Human                 113531 (  1%)           (  0%)
+     Other Mammalia        973886 ( 12%)           (  2%)
+     Other Vertebrata      839696 ( 10%)           (  2%)
+     Viridiplantae        1673209 ( 21%)           (  4%)
+     Fungi                1945973 ( 24%)           (  5%)
+     Insecta               844097 ( 10%)           (  2%)
+     Nematoda              253392 (  3%)           (  1%)
+     Other                1487986 ( 18%)           (  4%)
+
+
+
+3.  SEQUENCE SIZE
+
+   Repartition of the sequences by size (excluding fragments)
+
+               From   To  Number             From   To   Number
+                  1-  50 1113998             1001-1100   227576
+                 51- 100 3690225             1101-1200   158051
+                101- 150 4121105             1201-1300   113566
+                151- 200 3994933             1301-1400    68370
+                201- 250 4028228             1401-1500    56584
+                251- 300 3900661             1501-1600    38678
+                301- 350 3531654             1601-1700    28177
+                351- 400 2646190             1701-1800    21265
+                401- 450 2297592             1801-1900    17222
+                451- 500 1881256             1901-2000    14513
+                501- 550 1206951             2001-2100    11709
+                551- 600  931990             2101-2200    11894
+                601- 650  680692             2201-2300     9158
+                651- 700  535568             2301-2400     7383
+                701- 750  446145             2401-2500     6512
+                751- 800  384630             &gt;2500        49973
+                801- 850  299029
+                851- 900  267011
+                901- 950  183691
+                951-1000  129893
+
+</pre>
+<img src="../inc/drupal/uniprot/statistics/relstat6.gif" alt="image" />
+<pre>
+
+
+   The average sequence length in UniProtKB/TrEMBL is   318 amino acids.
+
+   The shortest sequence is G0XMK1_9MYRT:     1 amino acids.
+   The longest sequence is  Q3ASY8_CHLCH: 36805 amino acids.
+
+
+
+4.  STATISTICS FOR SOME LINE TYPES
+
+The following table summarizes the total number of some UniProtKB/TrEMBL lines,
+as well as the number of entries with at least one such line, and the
+frequency of the lines.
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry
+---------------------------------  -------- ---------  ---------
+
+References (RL)                    49170975                1.19                                                    
+   Submitted to EMBL/GenBank/DDBJ  28877412  27158547      0.70                                                    
+   Journal                         18532072  17524570      0.45                                                    
+   Submitted to other databases     1744448   1733538      0.04                                                    
+   Thesis                             10306     10248     &lt;0.01                                                    
+   Book citation                       6736      6686     &lt;0.01                                                    
+   Patent                                 1         1     &lt;0.01                                                    
+
+Total number of distinct authors cited in UniProtKB/TrEMBL: 473993
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank
+---------------------------------  -------- ---------  ---------  ----
+
+Comments (CC)                      51904431                1.25                                                    
+   CATALYTIC ACTIVITY               3911040   3509952      0.09     4                                              
+   CAUTION                         23311857  23295569      0.56     1                                              
+   COFACTOR                         1536560   1425126      0.04     8                                              
+   DOMAIN                            159005    152928     &lt;0.01     9                                              
+   FUNCTION                         4361169   4105568      0.11     3                                              
+   INTERACTION                         1251      1251     &lt;0.01    11                                              
+   MISCELLANEOUS                     101948    101752     &lt;0.01    10                                              
+   PATHWAY                          1929435   1756052      0.05     7                                              
+   SIMILARITY                      10962690   9531540      0.26     2                                              
+   SUBCELLULAR LOCATION             3421038   3301047      0.08     5                                              
+   SUBUNIT                          2208438   2185108      0.05     6                                              
+
+Total number of comment topics: 11
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank
+---------------------------------  -------- ---------  ---------  ----
+
+Features (FT)                       8333857                0.20                                                    
+   CHAIN                             869404    710847      0.02     2                                              
+   NON_TER                          6773824   4340809      0.16     1                                              
+   SIGNAL                            689228    685955      0.02     3                                              
+   TRANSIT                             1401      1401     &lt;0.01     4                                              
+
+Total number of feature keys: 4
+
+
+                                   Total    Number of  Average
+Line type / subtype                number   entries    per entry  Rank  Category
+---------------------------------  -------- ---------  ---------  ----  -------------------------------------------
+Cross-references (DR)             418778244               10.10                                                    
+   Allergome                           3461      2831     &lt;0.01    84   Protein family/group databases             
+   ArachnoServer                         66        66     &lt;0.01   101   Organism-specific databases                
+   ArrayExpress                      195540    195540     &lt;0.01    44   Gene expression databases                  
+   BRENDA                              2648      2619     &lt;0.01    86   Enzyme and pathway databases               
+   Bgee                               99908     99908     &lt;0.01    51   Gene expression databases                  
+   BindingDB                           5826      5826     &lt;0.01    77   Other                                      
+   BioCyc                           5640234   5572915      0.14    16   Enzyme and pathway databases               
+   CAZy                               74012     69539     &lt;0.01    55   Protein family/group databases             
+   CGD                                 7033      7033     &lt;0.01    76   Organism-specific databases                
+   COMPLUYEAST-2DPAGE                     4         4     &lt;0.01   107   2D gel databases                           
+   CTD                               352099    350775      0.01    37   Organism-specific databases                
+   ChEMBL                               607       607     &lt;0.01    93   Other                                      
+   ChiTaRS                            65948     65948     &lt;0.01    56   Other                                      
+   ConoServer                           160       160     &lt;0.01    98   Organism-specific databases                
+   DIP                                 2878      2873     &lt;0.01    85   Protein-protein interaction databases      
+   DNASU                              42342     42008     &lt;0.01    62   Protocols and materials databases          
+   EMBL                            44611291  40431685      1.08     3   Sequence databases                         
+   Ensembl                          1002552    988095      0.02    29   Genome annotation databases                
+   EnsemblBacteria                 17882907  17609037      0.43     5   Genome annotation databases                
+   EnsemblFungi                      351526    349532      0.01    38   Genome annotation databases                
+   EnsemblMetazoa                    676337    661010      0.02    33   Genome annotation databases                
+   EnsemblPlants                     654222    620702      0.02    34   Genome annotation databases                
+   EnsemblProtists                   156294    153898     &lt;0.01    47   Genome annotation databases                
+   EuPathDB                          147113    147111     &lt;0.01    49   Organism-specific databases                
+   EvolutionaryTrace                   8053      8053     &lt;0.01    74   Other                                      
+   FlyBase                           196133    194665     &lt;0.01    43   Organism-specific databases                
+   GO                              72922214  23638969      1.76     2   Ontologies                                 
+   Gene3D                          16160011  12753815      0.39     8   Family and domain databases                
+   GeneID                           9859724   9601683      0.24    11   Genome annotation databases                
+   GeneTree                          900068    900008      0.02    31   Phylogenomic databases                     
+   Genevestigator                     86540     86534     &lt;0.01    52   Gene expression databases                  
+   GenoList                           14733     14460     &lt;0.01    72   Organism-specific databases                
+   GenomeRNAi                         19569     19568     &lt;0.01    69   Other                                      
+   Gramene                           204056    204056     &lt;0.01    42   Organism-specific databases                
+   H-InvDB                              614       467     &lt;0.01    92   Organism-specific databases                
+   HAMAP                            3751883   3704375      0.09    20   Family and domain databases                
+   HGNC                               47526     47455     &lt;0.01    59   Organism-specific databases                
+   HOGENOM                          3654171   3654126      0.09    21   Phylogenomic databases                     
+   HOVERGEN                          305496    305485      0.01    39   Phylogenomic databases                     
+   IPI                               280051    279160      0.01    40   Sequence databases                         
+   InParanoid                        186582    186582     &lt;0.01    45   Phylogenomic databases                     
+   IntAct                             17273     17273     &lt;0.01    70   Protein-protein interaction databases      
+   InterPro                        77993391  27382046      1.88     1   Family and domain databases                
+   KEGG                             8769565   8555102      0.21    12   Genome annotation databases                
+   KO                               3578882   3561857      0.09    22   Phylogenomic databases                     
+   LegioList                           5138      5110     &lt;0.01    79   Organism-specific databases                
+   Leproma                             1272      1270     &lt;0.01    88   Organism-specific databases                
+   MEROPS                            138764    138763     &lt;0.01    50   Protein family/group databases             
+   MGI                                51779     51463     &lt;0.01    58   Organism-specific databases                
+   MINT                               10264     10263     &lt;0.01    73   Protein-protein interaction databases      
+   NextBio                           208912    208907      0.01    41   Other                                      
+   OMA                              4858421   4858204      0.12    19   Phylogenomic databases                     
+   OrthoDB                           553206    553163      0.01    35   Phylogenomic databases                     
+   PANTHER                          5196425   4894508      0.13    18   Family and domain databases                
+   PATRIC                           8286168   8286051      0.20    13   Genome annotation databases                
+   PDB                                20016     11115     &lt;0.01    67   3D structure databases                     
+   PDBsum                             19749     10919     &lt;0.01    68   3D structure databases                     
+   PIR                               172390    139562     &lt;0.01    46   Sequence databases                         
+   PIRSF                            3157576   3154380      0.08    23   Family and domain databases                
+   PMAP-CutDB                           209       209     &lt;0.01    96   Other                                      
+   PRIDE                             930025    930025      0.02    30   Proteomic databases                        
+   PRINTS                           5289728   4728545      0.13    17   Family and domain databases                
+   PROSITE                         17532395  11642430      0.42     6   Family and domain databases                
+   Pathway_Interaction_DB                10         8     &lt;0.01   106   Enzyme and pathway databases               
+   PaxDb                              29088     29086     &lt;0.01    64   Proteomic databases                        
+   PeptideAtlas                         129       129     &lt;0.01    99   Proteomic databases                        
+   PeroxiBase                          2596      2588     &lt;0.01    87   Protein family/group databases             
+   Pfam                            34831380  25528635      0.84     4   Family and domain databases                
+   PharmGKB                            3589      3589     &lt;0.01    83   Organism-specific databases                
+   PhosphoSite                         1128      1128     &lt;0.01    89   PTM databases                              
+   PhylomeDB                         147299    147299     &lt;0.01    48   Phylogenomic databases                     
+   PomBase                               40        27     &lt;0.01   102   Organism-specific databases                
+   PptaseDB                              36        35     &lt;0.01   103   Protein family/group databases             
+   ProDom                            704398    676902      0.02    32   Family and domain databases                
+   ProMEX                              5235      5235     &lt;0.01    78   Proteomic databases                        
+   ProtClustDB                      2719644   2719633      0.07    26   Phylogenomic databases                     
+   ProteinModelPortal               9871281   9871281      0.24    10   3D structure databases                     
+   PseudoCAP                           4533      4527     &lt;0.01    80   Organism-specific databases                
+   REBASE                             39313     39305     &lt;0.01    63   Protein family/group databases             
+   REPRODUCTION-2DPAGE                   66        65     &lt;0.01   100   2D gel databases                           
+   RGD                                21083     20192     &lt;0.01    66   Organism-specific databases                
+   Reactome                             180       145     &lt;0.01    97   Enzyme and pathway databases               
+   RefSeq                           9900105   9609735      0.24     9   Sequence databases                         
+   SABIO-RK                             481       481     &lt;0.01    94   Enzyme and pathway databases               
+   SGD                                   11        11     &lt;0.01   105   Organism-specific databases                
+   SMART                            7772333   5889972      0.19    15   Family and domain databases                
+   SMR                              2608329   2608329      0.06    27   3D structure databases                     
+   STRING                           2903996   2903927      0.07    24   Protein-protein interaction databases      
+   SUPFAM                          16314232  13168694      0.39     7   Family and domain databases                
+   SWISS-2DPAGE                          28        28     &lt;0.01   104   2D gel databases                           
+   SignaLink                           4406      4404     &lt;0.01    81   Enzyme and pathway databases               
+   TAIR                               15255     15182     &lt;0.01    71   Organism-specific databases                
+   TCDB                                4242      4234     &lt;0.01    82   Protein family/group databases             
+   TIGRFAMs                         8254802   7533766      0.20    14   Family and domain databases                
+   TubercuList                         1102      1101     &lt;0.01    90   Organism-specific databases                
+   UCSC                               57998     57854     &lt;0.01    57   Genome annotation databases                
+   UniGene                           551507    521841      0.01    36   Sequence databases                         
+   UniPathway                       1599601   1489114      0.04    28   Enzyme and pathway databases               
+   VectorBase                         78249     77732     &lt;0.01    53   Genome annotation databases                
+   World-2DPAGE                         673       668     &lt;0.01    91   2D gel databases                           
+   WormBase                           42540     42367     &lt;0.01    61   Organism-specific databases                
+   Xenbase                            25581     25512     &lt;0.01    65   Organism-specific databases                
+   ZFIN                               45657     45091     &lt;0.01    60   Organism-specific databases                
+   dictyBase                           7996      7774     &lt;0.01    75   Organism-specific databases                
+   eggNOG                           2768423   2768403      0.07    25   Phylogenomic databases                     
+   euHCVdb                            75267     75264     &lt;0.01    54   Organism-specific databases                
+   mycoCLAP                             422       422     &lt;0.01    95   Protein family/group databases             
+
+Number of <a href="http://www.uniprot.org/docs/dbxref">explicitly cross-referenced databases</a>: 128
+
+
+5.  AMINO ACID COMPOSITION
+
+   5.1  Composition in percent for the complete database
+
+   Ala (A) 8.64   Gln (Q) 3.98   Leu (L) 9.94   Ser (S) 6.55
+   Arg (R) 5.36   Glu (E) 6.23   Lys (K) 5.33   Thr (T) 5.55
+   Asn (N) 4.12   Gly (G) 7.08   Met (M) 2.49   Trp (W) 1.28
+   Asp (D) 5.33   His (H) 2.19   Phe (F) 4.05   Tyr (Y) 3.08
+   Cys (C) 1.20   Ile (I) 6.09   Pro (P) 4.57   Val (V) 6.79
+
+   Asx (B) 0.000  Glx (Z) 0      Xaa (X) 0.02
+
+</pre>
+<img src="../inc/drupal/uniprot/statistics/relstat2.gif" alt="image" />
+<pre>
+
+   Legend: gray = aliphatic, red = acidic, green = small hydroxy,
+           blue = basic, black = aromatic, white = amide, yellow = sulfur
+
+
+   5.2  Classification of the amino acids by their frequency
+
+   Leu, Ala, Gly, Val, Ser, Glu, Ile, Thr, Arg, Asp, Lys, Pro, Asn, Phe,
+   Gln, Tyr, Met, His, Trp, Cys
+
+
+
+6.  MISCELLANEOUS STATISTICS
+
+Total number of entries encoded on a Mitochondrion: 636914
+Total number of entries encoded on a Plasmid: 347429
+Total number of entries encoded on a Plastid: 26708
+Total number of entries encoded on a Plastid; Apicoplast: 750
+Total number of entries encoded on a Plastid; Chloroplast: 235505
+Total number of entries encoded on a Plastid; Cyanelle: 8
+Total number of entries encoded on a Plastid; Non-photosynthetic plastid: 1031
+
+</pre>
+
+</div>
+      </div>
+</div>
+  </div>
+
+  
+  
+</div>
+  </div>
+
+										
+      										
+		</section> 
+
+        
+    		
+			
+    </div>
+    
+    <footer>
+
+  	
+    <div id="local-footer" class="grid_24 clearfix">
+      		</div>
+		
+		
+		<div id="global-footer" class="grid_24">
+						
+			<nav id="global-nav-expanded">
+				
+				<div class="grid_4 alpha">
+					<h3 class="embl-ebi"><a href="http://www.ebi.ac.uk/" title="EMBL-EBI">EMBL-EBI</a></h3>
+				</div>
+				
+				<div class="grid_4">
+					<h3 class="services"><a href="http://www.ebi.ac.uk/services">Services</a></h3>
+				</div>
+				
+				<div class="grid_4">
+					<h3 class="research"><a href="http://www.ebi.ac.uk/research">Research</a></h3>
+				</div>
+				
+				<div class="grid_4">
+					<h3 class="training"><a href="http://www.ebi.ac.uk/training">Training</a></h3>
+				</div>
+				
+				<div class="grid_4">
+					<h3 class="industry"><a href="http://www.ebi.ac.uk/industry">Industry</a></h3>
+				</div>
+				
+				<div class="grid_4 omega">
+					<h3 class="about"><a href="http://www.ebi.ac.uk/about">About us</a></h3>
+				</div>
+
+			</nav>
+		
+			<section id="ebi-footer-meta">
+				<p class="address">EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
+				<p class="legal">Copyright &copy; EMBL-EBI 2013 | EBI is an Outstation of the <a href="http://www.embl.org">European Molecular Biology Laboratory</a> | <a href="http://www.ebi.ac.uk/about/privacy">Privacy</a> | <a href="http://www.ebi.ac.uk/about/cookies">Cookies</a> | <a href="http://www.ebi.ac.uk/about/terms-of-use">Terms of use</a></p>	
+			</section>
+
+		</div>
+		
+    </footer>
+  </div> 
+
+
+  
+
+  
+  
+
+
+  
+  
+  <script defer="defer" src="../web_guidelines/js/cookiebanner.js"></script>  
+  <script defer="defer" src="../web_guidelines/js/foot.js"></script>
+  
+
+  		
+  
+  
+
+
+  
+  
+
+    
+  
+<!-- page_bottom -->
+    
+</body>
+</html>
