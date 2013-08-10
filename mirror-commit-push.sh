@@ -4,7 +4,7 @@ SCRIPT_DIR=$(dirname $0)
 cd $SCRIPT_DIR
 
 SWISSPROT_URL=http://web.expasy.org/docs/relnotes/relstat.html
-TREMBL_URL=http://www.ebi.ac.uk/uniprot/TrEMBLstats/index.html
+TREMBL_URL=http://www.ebi.ac.uk/uniprot/TrEMBLstats
 
 mkdir swiss-prot 2> /dev/null
 ( set -e
