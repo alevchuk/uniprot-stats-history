@@ -21,11 +21,13 @@
 
 set -e; set -u;
 (
-  for f in *"/web.expasy.org/docs/relnotes/relstat.html"; do
+  echo *"/web.expasy.org/docs/relnotes/relstat.html"| tr ' ' '\n' |
+                                           grep -v '^swiss' | while read f; do
     echo "<p><a href=\"$f\">$f</a></p>"
   done
   
-  for f in *"/www.ebi.ac.uk/uniprot/TrEMBLstats/"*".html"; do
+  echo *"/www.ebi.ac.uk/uniprot/TrEMBLstats/"*".html" | tr ' ' '\n' |
+                                          grep -v '^trembl' | while read f; do
     echo "<p><a href=\"$f\">$f</a></p>"
   done
 ) | sort > index.html-tmp
