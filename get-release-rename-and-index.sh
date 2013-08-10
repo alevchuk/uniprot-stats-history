@@ -25,7 +25,7 @@ set -e; set -u;
     echo "<p><a href=\"$f\">$f</a></p>"
   done
   
-  for f in *"/www.ebi.ac.uk/uniprot/TrEMBLstats/index.html"; do
+  for f in *"/www.ebi.ac.uk/uniprot/TrEMBLstats/"*".html"; do
     echo "<p><a href=\"$f\">$f</a></p>"
   done
 ) | sort > index.html-tmp
